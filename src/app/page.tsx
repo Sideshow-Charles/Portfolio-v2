@@ -8,14 +8,14 @@ const Home = () => {
     <div>
       {/* Header Component */}
       <Header
-      btnContent="Get a copt of my resume!"></Header>
+        btnContent="Get a copt of my resume!"></Header>
       {/* End of Header Component */}
 
       <section className="flex justify-center flex-col items-center mt-36">
-        <h1 className="text-center font-bold text-7xl leading-tight">
+        <p className="text-center font-bold text-7xl leading-tight">
           Charles Onuoha,<br></br>
           Software Engineer(Frontend)
-        </h1>
+        </p>
         <p className="text-center mt-8 text-xl">Based in Lagos, Nigeria</p>
 
         {/* CTA Button */}
@@ -42,6 +42,8 @@ const Home = () => {
         </p>
       </section>
 
+
+      {/* explore cards section */}
       <section className="my-48 mx-auto w-4/5">
         <ExploreCards
           className="rounded-2xl text-white bg-red-500 py-16 px-9 text-center"
@@ -78,13 +80,19 @@ const Home = () => {
           btnContent="Checkout My Articles &#8594;">
         </ExploreCards>
       </section>
+      {/* End of explore cards section */}
 
+      {/* sub-footer section */}
       <section className="flex justify-center mb-11">
         <SubFooter></SubFooter>
       </section>
+      {/* End of sub-footer section */}
+
+      {/* footer section */}
       <section className="mt-36">
         <Footer></Footer>
       </section>
+      {/* end of footer section */}
     </div>
   );
 };
