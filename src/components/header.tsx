@@ -3,7 +3,7 @@ import Link from "next/link"
 import Button from "../components/button"
 import TheCharles from "../../assets/images/TheCharles.png"
 const Header = (props:any) => {
-    const btnContent = props.btnContent
+    const btnclassName = props.btnclassName
     return (
         <header className="flex justify-between items-center py-7 px-24">
             <div className="logo__container">
@@ -21,7 +21,7 @@ const Header = (props:any) => {
             </div>
             <div className="text-sm">
                 <Button content="Let's Talk!" className="bg-gray-100 text-black py-2 px-4 border border-gray-100 rounded-md mx-2"></Button>
-                <Button content={btnContent} className="bg-slate-950 text-white py-2 px-4 border border-slate-950 rounded-md mx-2"></Button>
+                <Button content="Get a copy of my resume" className={btnclassName}></Button>
             </div>
         </header>
     )
