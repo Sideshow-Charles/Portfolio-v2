@@ -16,7 +16,12 @@
   }
 }
 
-body {}
+body {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 106rem;
+}
 
 @layer utilities {
   .text-balance {

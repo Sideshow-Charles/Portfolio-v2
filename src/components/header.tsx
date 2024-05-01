@@ -1,6 +1,9 @@
 import Image from "next/image"
+import Link from "next/link"
+import Button from "../components/button"
 import TheCharles from "../../assets/images/TheCharles.png"
-export default function Header() {
+const Header = (props:any) => {
+    const btnContent = props.btnContent
     return (
         <header className="flex justify-between items-center py-7 px-24">
             <div className="logo__container">
@@ -11,15 +14,16 @@ export default function Header() {
             </div>
             <div className="header__items__center">
                 <ul className="flex justify-center text-base">
-                    <li className="mx-8 my-0">Work</li>
-                    <li className="mx-8 my-0">About</li>
-                    <li className="mx-8 my-0">Contact</li>
+                    <Link href="../work"><li className="mx-8 my-0">Work</li></Link>
+                    <Link href="/about"><li className="mx-8 my-0">About</li></Link>
+                    <Link href="/contact"><li className="mx-8 my-0">Contact</li></Link>
                 </ul>
             </div>
             <div className="text-sm">
-                <button className="bg-gray-100 text-black py-2 px-4 border border-gray-100 rounded-md mr-2">Let's Talk!</button>
-                <button className="bg-slate-950 text-white py-2 px-4 border border-slate-950 rounded-md">Get a copy of my resume!</button>
+                <Button content="Let's Talk!" className="bg-gray-100 text-black py-2 px-4 border border-gray-100 rounded-md mx-2"></Button>
+                <Button content={btnContent} className="bg-slate-950 text-white py-2 px-4 border border-slate-950 rounded-md mx-2"></Button>
             </div>
         </header>
     )
 }
+export default Header;
