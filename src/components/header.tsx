@@ -2,21 +2,21 @@ import Image from "next/image"
 import Link from "next/link"
 import Button from "../components/button"
 import TheCharles from "../../assets/images/TheCharles.png"
-const Header = (props:any) => {
+const Header = (props: any) => {
     const btnclassName = props.btnclassName
     return (
         <header className="flex justify-between items-center py-7 px-24">
-            <div className="logo__container">
+            <Link href="/"><div className="logo__container">
                 <Image src={TheCharles}
                     alt="Logo"
                     width={200}
                 />
-            </div>
+            </div></Link>
             <div className="header__items__center">
                 <ul className="flex justify-center text-base">
-                    <Link href="../work"><li className="mx-8 my-0">Work</li></Link>
                     <Link href="/about"><li className="mx-8 my-0">About</li></Link>
-                    <Link href="/contact"><li className="mx-8 my-0">Contact</li></Link>
+                    <Link href="../work"><li className="mx-8 my-0">Work</li></Link>
+                    <Link href="/contact"><li className="mx-8 my-0">Projects</li></Link>
                 </ul>
             </div>
             <div className="text-sm">

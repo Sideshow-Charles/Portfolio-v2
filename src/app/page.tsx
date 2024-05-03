@@ -1,3 +1,4 @@
+import Link from "next/link"
 import Header from "@/components/header";
 import ExploreCards from "../components/exploreCards";
 import Button from "../components/button";
@@ -58,34 +59,32 @@ const Home = () => {
           <ExploreCards
             className="rounded-2xl text-white bg-sky-500 py-16 px-9 mr-6 text-center"
             btnStyle="bg-white text-sky-500 py-4 px-8 rounded-lg mt-10"
-            contentHeader="Featured Work"
+            contentHeader="Projects"
             contentBody="Take a look at projects I've worked on, from challanegs I faced, to how I solved them."
             btnContent="Projects &#8594;">
           </ExploreCards>
 
-          <ExploreCards
+          <Link href="/work"><ExploreCards
             className="rounded-2xl text-white bg-violet-500 py-16 px-4 ml-6 text-center"
             btnStyle="bg-white text-violet-500 py-4 px-8 rounded-lg mt-10"
-            contentHeader="Want To Talk?"
-            contentBody="Find out where you can reach me. If you want to talk about software, podcasts, football and all of that good stuff."
-            btnContent="Reach Out To Me &#8594;">
-          </ExploreCards>
+            contentHeader="Work History"
+            contentBody="Take a look at places I've worked, roles and teams I worked in, also daily tasks I performed."
+            btnContent="Work History &#8594;">
+          </ExploreCards></Link>
         </div>
         <ExploreCards className="rounded-2xl text-white bg-teal-500 py-16 px-9 text-center"
           btnStyle="bg-white text-teal-500 py-4 px-8 rounded-lg mt-10"
-          contentHeader="Checkout my technical articles."
-          contentBody="I ocassionally write technical articles on frontend engineering
-          fundamentals for beginners. If you're new to frontend engineering,
-          you'd probably find something in there that you like."
-          btnContent="Checkout My Articles &#8594;">
+          contentHeader="Want To Talk?"
+          contentBody="Find out where you can reach me. If you want to talk about software, podcasts, football and all of that good stuff.."
+          btnContent="Reach Out To Me &#8594;">
         </ExploreCards>
       </section>
       {/* End of explore cards section */}
 
       {/* sub-footer section */}
-      <section className="flex justify-center mb-11">
+      {/* <section className="flex justify-center mb-11">
         <SubFooter></SubFooter>
-      </section>
+      </section> */}
       {/* End of sub-footer section */}
 
       {/* footer section */}
