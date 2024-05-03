@@ -1,13 +1,12 @@
 import Header from "../../components/header"
-import SubFooter from "@/components/subFooter";
 import Footer from "@/components/footer";
 import WorkHistory from "@/components/workHistory";
 const Works = () => {
     return (
         <div>
-            <div className="header-section">
+            {/* Header Component */}
                 <Header btnclassName="bg-violet-500 text-white py-2 px-4 border border-violet-500 rounded-md mx-2"></Header>
-            </div>
+            {/* End of Header Component */}
 
             {/* Hero Section */}
             <section className="flex justify-center flex-col items-center mt-36 mb-24">
@@ -18,6 +17,7 @@ const Works = () => {
             </section>
             {/* End of Hero Section */}
 
+            {/* Work History Section */}
             <WorkHistory
                 companyName="Flutterwave"
                 duration="2021 - Present"
@@ -52,6 +52,8 @@ const Works = () => {
                 relevantLinks="None"
                 technologies="VMware, CentOS">
             </WorkHistory>
+            {/* End of Work History Section */}
+
             <Footer></Footer>
         </div>
     )

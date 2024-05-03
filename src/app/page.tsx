@@ -9,7 +9,7 @@ const Home = () => {
     <div>
       {/* Header Component */}
       <Header
-      btnclassName="bg-slate-950 text-white py-2 px-4 border border-slate-950 rounded-md mx-2"></Header>
+        btnclassName="bg-slate-950 text-white py-2 px-4 border border-slate-950 rounded-md mx-2"></Header>
       {/* End of Header Component */}
 
       <section className="flex justify-center flex-col items-center mt-36">
@@ -21,7 +21,7 @@ const Home = () => {
 
         {/* CTA Button */}
         <div className="flex justify-center mt-7">
-          <Button content="View Projects &#8594;" className="bg-slate-950 text-white py-2 px-4 border border-slate-950 rounded-md mx-2"></Button>
+          <Link href="/projects"><Button content="View Projects &#8594;" className="bg-slate-950 text-white py-2 px-4 border border-slate-950 rounded-md mx-2"></Button></Link>
         </div>
         {/* End of CTA Button */}
       </section>
@@ -46,23 +46,23 @@ const Home = () => {
 
       {/* explore cards section */}
       <section className="my-48 mx-auto w-4/5">
-        <ExploreCards
+        <Link href="/about"> <ExploreCards
           className="rounded-2xl text-white bg-red-500 py-16 px-9 text-center"
           btnStyle="bg-white text-red-500 py-4 px-8 rounded-lg mt-10"
           contentHeader="Get To Know About Me"
           contentBody="From what I'm working on, what I'm learning, the music I'm listening to,
           even the podcasts I'm currently hooked on, all that good stuff!"
           btnContent="Find Out More &#8594;">
-        </ExploreCards>
+        </ExploreCards></Link>
 
         <div className="flex justify-between items-center">
-          <ExploreCards
+          <Link href="/projects"><ExploreCards
             className="rounded-2xl text-white bg-sky-500 py-16 px-9 mr-6 text-center"
             btnStyle="bg-white text-sky-500 py-4 px-8 rounded-lg mt-10"
             contentHeader="Projects"
             contentBody="Take a look at projects I've worked on, from challanegs I faced, to how I solved them."
             btnContent="Projects &#8594;">
-          </ExploreCards>
+          </ExploreCards></Link>
 
           <Link href="/work"><ExploreCards
             className="rounded-2xl text-white bg-violet-500 py-16 px-4 ml-6 text-center"
