@@ -28,7 +28,7 @@ const Works = () => {
                  and checkout for white-label merchants. I also worked on building email templates and oversaw implementation 
                  of these emails across different products, marketing and brand emails."
                 technologies="Vue.js, Nuxt.js, SCSS, HTML, CSS, Handlebars.js"
-                relevantLinks="None">
+                relevantLinks="-">
             </WorkHistory>
 
             <WorkHistory
@@ -36,7 +36,7 @@ const Works = () => {
                 duration="August 2020 - November 2020"
                 jobTitle="Junior Frontend Engineer"
                 roleDescription="In my short time at Instiq, I worked on two different projects. One was a microfinance bank
-                 for a client, which included everyday financial features like funds transfer, bill payments. 
+                 for a client, which included everyday financial features like funds transfer and bill payments. 
                  Second project was an online portfolio for a construction company based in Ekiti, Nigeria,
                  with ecommerce functionalities."
                 relevantLinks="https://canaantowersltd.com"
@@ -49,7 +49,7 @@ const Works = () => {
                 jobTitle="System Adminstration Intern"
                 roleDescription="Managed Linux serves, which included scheduled updates and upgrades.
                 Set up virtual environments for installations for new updates."
-                relevantLinks="None"
+                relevantLinks="-"
                 technologies="VMware, CentOS">
             </WorkHistory>
             {/* End of Work History Section */}

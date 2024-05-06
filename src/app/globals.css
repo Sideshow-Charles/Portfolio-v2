@@ -19,8 +19,8 @@
 body {
   margin: 0 auto;
   padding: 0;
-  box-sizing: border-box;
-  max-width: 106rem;
+  /* box-sizing: border-box; */
+  max-width: 90rem;
 }
 
 @layer utilities {

@@ -16,7 +16,7 @@ const Header = (props: any) => {
                 <ul className="flex justify-center text-base">
                     <Link href="/about"><li className="mx-8 my-0">About</li></Link>
                     <Link href="../work"><li className="mx-8 my-0">Work</li></Link>
-                    <Link href="/contact"><li className="mx-8 my-0">Projects</li></Link>
+                    <Link href="/projects"><li className="mx-8 my-0">Projects</li></Link>
                 </ul>
             </div>
             <div className="text-sm">
