@@ -12,6 +12,7 @@ const Home = () => {
         btnclassName="bg-slate-950 text-white py-2 px-4 border border-slate-950 rounded-md mx-2"></Header>
       {/* End of Header Component */}
 
+      {/* <div className="max-w-7xl mx-auto"> */}
       <section className="flex justify-center flex-col items-center mt-36">
         <p className="text-center font-bold text-7xl leading-tight md:text-5xl">
           Charles Onuoha,<br></br>
@@ -86,7 +87,7 @@ const Home = () => {
         <SubFooter></SubFooter>
       </section> */}
       {/* End of sub-footer section */}
-
+{/* </div> */}
       {/* footer section */}
       <section className="mt-36">
         <Footer></Footer>

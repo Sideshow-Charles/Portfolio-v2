@@ -23,12 +23,13 @@ const Works = () => {
                 duration="2021 - Present"
                 jobTitle="Frontend Engineer (Engineer I, Engineer II)"
                 roleDescription=" Over at Flutterwave; An African fintech company that provides a payment infrastructure
-                 for global merchants and payment service providers across the world, I've spent the last three years working
+                 for global merchants and payment service providers across the world, I currently work
                  on the white-label product, where I've built on and managed existing products like the flutterwave dashboard
+                 and it's features like collections, payouts, bills payments, invoices etc
                  and checkout for white-label merchants. I also worked on building email templates and oversaw implementation 
                  of these emails across different products, marketing and brand emails."
-                technologies="Vue.js, Nuxt.js, SCSS, HTML, CSS, Handlebars.js"
-                relevantLinks="-">
+                technologies="Vue, Nuxt, SCSS, HTML, CSS, Handlebars.js"
+                relevantLinks="">
             </WorkHistory>
 
             <WorkHistory
@@ -40,7 +41,7 @@ const Works = () => {
                  Second project was an online portfolio for a construction company based in Ekiti, Nigeria,
                  with ecommerce functionalities."
                 relevantLinks="https://canaantowersltd.com"
-                technologies="React.js, Vue.js, CSS, SCSS, Bootstrap, Javascript, HTML">
+                technologies="React.js, Vue, CSS, SCSS, Bootstrap, Javascript, HTML">
             </WorkHistory>
 
             <WorkHistory
@@ -49,7 +50,7 @@ const Works = () => {
                 jobTitle="System Adminstration Intern"
                 roleDescription="Managed Linux serves, which included scheduled updates and upgrades.
                 Set up virtual environments for installations for new updates."
-                relevantLinks="-"
+                relevantLinks=""
                 technologies="VMware, CentOS">
             </WorkHistory>
             {/* End of Work History Section */}
