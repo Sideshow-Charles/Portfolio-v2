@@ -36,7 +36,7 @@ const Home = () => {
           With a keen eye for design and a deep understanding of the latest web
           technologies, I'm a driving force in crafting seamless and intuitive
           interfaces while implementing and maintaining functionality. My
-          expertise lies in HTML5, CSS3, Javascript as foundation tools, and
+          expertise lies in HTML5, CSS3, Javascript (ES5, ES6) as foundation tools, and
           various frontend frameworks such as Vue, Nuxt, React,
           Next, SCSS, Tailwind, Tyescript etc. I am proficient in writing clean,
           maintainable code with a keen eye for design and user experience,

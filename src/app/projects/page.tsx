@@ -3,6 +3,7 @@ import ProjectDescription from "@/components/projectDescription";
 import rendezvous from "../../../assets/images/rendezvous.png";
 import kolawole from "../../../assets/images/kolaowle.png";
 import Footer from "@/components/footer";
+import Link from "next/link";
 const Projects = () => {
     return (
         <div>
