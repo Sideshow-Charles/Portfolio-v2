@@ -37,8 +37,9 @@ const Projects = () => {
                 projectImage={kolawole}
                 projectStatus="Ongoing"
                 projectOverview="Online portfolio for Kolawole Popoola, A digital product designer.
-                I Worked on this using Nuxt (a Vue framework), vanilla CSS for styling and javascript for logic. The events being displayed
-                are gotten from a dummy API and they're pretty much dummy events."
+                I Worked on this using Nuxt (a Vue framework), vanilla CSS for styling and javascript for logic.
+                This was built with the idea of making you know Kolawole, without having conversation with him,
+                Personal and professional details were well highlighted, with a great design to keep you interested."
                 projectLink="https://kola-beige.vercel.app"
                 projectCode="https://github.com/Sideshow-Charles/Kolawole-Portfolio"
                 projectTechnology="Nuxt, Javascript, CSS">

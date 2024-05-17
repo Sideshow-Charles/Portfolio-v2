@@ -11,7 +11,7 @@ const Works = () => {
             {/* Hero Section */}
             <section className="flex justify-center flex-col items-center mt-36 mb-24">
                 <p className="text-center font-bold text-7xl leading-tight text-violet-500">
-                    Work History & <br></br> Career Overview
+                    Work History & <br></br> Career Overview.
                 </p>
                 <p className="text-center mt-8 text-xl text-violet-500 font-bold">(2017 - Present)</p>
             </section>
@@ -22,13 +22,13 @@ const Works = () => {
                 companyName="Flutterwave"
                 duration="2021 - Present"
                 jobTitle="Frontend Engineer (Engineer I, Engineer II)"
-                roleDescription=" Over at Flutterwave; An African fintech company that provides a payment infrastructure
+                roleDescription="Over at Flutterwave; An African fintech company that provides a payment infrastructure
                  for global merchants and payment service providers across the world, I currently work
                  on the white-label product, where I've built on and managed existing products like the flutterwave dashboard
                  and it's features like collections, payouts, bills payments, invoices etc
                  and checkout for white-label merchants. I also worked on building email templates and oversaw implementation 
                  of these emails across different products, marketing and brand emails."
-                technologies="Vue, Nuxt, SCSS, HTML, CSS, Handlebars.js"
+                technologies="Vue, Nuxt, SCSS, HTML, CSS, Handlebars.js, Git"
                 relevantLinks="">
             </WorkHistory>
 
@@ -41,7 +41,7 @@ const Works = () => {
                  Second project was an online portfolio for a construction company based in Ekiti, Nigeria,
                  with ecommerce functionalities."
                 relevantLinks="https://canaantowersltd.com"
-                technologies="React.js, Vue, CSS, SCSS, Bootstrap, Javascript, HTML">
+                technologies="React, Vue, CSS, SCSS, Bootstrap, Javascript, HTML, Git">
             </WorkHistory>
 
             <WorkHistory

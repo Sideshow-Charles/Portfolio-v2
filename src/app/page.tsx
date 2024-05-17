@@ -50,7 +50,7 @@ const Home = () => {
         <Link href="/about"> <ExploreCards
           className="rounded-2xl text-white bg-red-500 py-16 px-9 text-center"
           btnStyle="bg-white text-red-500 py-4 px-8 rounded-lg mt-10"
-          contentHeader="Get To Know About Me"
+          contentHeader="Get To Know Me"
           contentBody="From what I'm working on, what I'm learning, the music I'm listening to,
           even the podcasts I'm currently hooked on, all that good stuff!"
           btnContent="Find Out More &#8594;">
