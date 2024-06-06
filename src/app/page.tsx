@@ -14,9 +14,9 @@ const Home = () => {
 
       {/* <div className="max-w-7xl mx-auto"> */}
       <section className="flex justify-center flex-col items-center mt-36">
-        <p className="text-center font-bold text-7xl leading-tight md:text-5xl">
+        <p className="text-center font-bold text-7xl leading-tight md:text-5xl ease-in">
           Charles Onuoha,<br></br>
-          Software Engineer(Frontend)
+          Software Engineer(Frontend).
         </p>
         <p className="text-center mt-8 text-xl">Based in Lagos, Nigeria</p>
 
@@ -58,8 +58,8 @@ const Home = () => {
 
         <div className="flex justify-between items-center">
           <Link href="/projects"><ExploreCards
-            className="rounded-2xl text-white bg-sky-500 py-16 px-9 mr-6 text-center"
-            btnStyle="bg-white text-sky-500 py-4 px-8 rounded-lg mt-10"
+            className="rounded-2xl text-white bg-orange-500 py-16 px-9 mr-6 text-center"
+            btnStyle="bg-white text-orange-500 py-4 px-8 rounded-lg mt-10"
             contentHeader="Projects"
             contentBody="Take a look at projects I've worked on, from challanegs I faced, to how I solved them."
             btnContent="Projects &#8594;">

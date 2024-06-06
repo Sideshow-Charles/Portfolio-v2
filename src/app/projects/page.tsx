@@ -1,49 +1,51 @@
 import Header from "@/components/header";
-import ProjectDescription from "@/components/projectDescription";
 import rendezvous from "../../../assets/images/rendezvous.png";
-import kolawole from "../../../assets/images/kolaowle.png";
+import kolawole from "../../../assets/images/kolawole.png"
 import Footer from "@/components/footer";
 import Link from "next/link";
+import Button from "@/components/button";
+import Image from "next/image";
 const Projects = () => {
     return (
         <div>
             {/* Header Component */}
-            <Header btnclassName="bg-sky-500 text-white py-2 px-4 border border-sky-500 rounded-md mx-2"></Header>
+            <Header btnclassName="bg-orange-500 text-white py-2 px-4 border border-orange-500 rounded-md mx-2"></Header>
             {/* End of Header Component */}
 
             {/* Hero Section */}
-            <section className="flex justify-center flex-col items-center mt-36 mb-24">
-                <p className="text-center font-bold text-7xl leading-tight text-sky-500">Checkout Selected Projects <br></br>I've Worked On</p>
-                <p className="text-center mt-8 text-xl text-sky-500">Take a look at a few projects I've worked on,<br></br> from challanegs I faced, to how I solved them.</p>
+            <section className=" mt-36 mx-24 text-center">
+                <p className="font-bold text-7xl leading-tight text-orange-500">Checkout Selected <br></br>Projects I've Worked On.</p>
+                <p className="mt-8 text-xl text-orange-500">Take a look at a few projects I've worked on, from challanegs I faced,<br></br> to how I solved them.</p>
             </section>
             {/* End of Hero Section */}
 
             {/* Project Section */}
-            <ProjectDescription
-                projectName="Rendezvous"
-                projectImage={rendezvous}
-                projectStatus="Ongoing"
-                projectOverview="Rendezvous is a merchant view of an event manangement system.
-                Rendezvous shows you a list of events available and you can selectively view details for each event and purchase tickets.
-                Worked on this using Nuxt (a Vue framework), vanilla CSS for styling and javascript for logic. The events being displayed
-                are gotten from a dummy API and they're pretty much dummy events."
-                projectLink="https://rendezvous-black.vercel.app"
-                projectCode="https://github.com/Sideshow-Charles/Rendezvous"
-                projectTechnology="Nuxt, Javascript, CSS">
-            </ProjectDescription>
+            <div className="flex justify-around items-center my-52 mx-16">
+                <div className="w-8/12">
+                    <Link href="/rendezvous">
+                        <Image src={rendezvous} alt="Project Image" className="hover:scale-105 transition duration-300 ease-in-out rounded-lg h-full" />
+                    </Link>
+                </div>
+                <div className="w-3/12 text-right">
+                    <p className="font-bold text-orange-500 text-3xl mb-2">Rendezvous</p>
+                    <p className="text-xxxl leading-relaxed my-4">Rendezvous is a merchant view of an event manangement system.</p>
+                    <Button content="View Project" className="bg-orange-500 text-white py-2 px-4 border border-orange-100 rounded-md"></Button>
+                </div>
+            </div>
 
-            <ProjectDescription
-                projectName="Kolawole's Portfolio"
-                projectImage={kolawole}
-                projectStatus="Ongoing"
-                projectOverview="Online portfolio for Kolawole Popoola, A digital product designer.
-                I Worked on this using Nuxt (a Vue framework), vanilla CSS for styling and javascript for logic.
-                This was built with the idea of making you know Kolawole, without having conversation with him,
-                Personal and professional details were well highlighted, with a great design to keep you interested."
-                projectLink="https://kola-beige.vercel.app"
-                projectCode="https://github.com/Sideshow-Charles/Kolawole-Portfolio"
-                projectTechnology="Nuxt, Javascript, CSS">
-            </ProjectDescription>
+            <div className="flex justify-around items-center flex-row-reverse my-52 mx-16">
+                <div className="w-8/12">
+                    <Link href="/kolawole">
+                        <Image src={kolawole} alt="Project Image" className="hover:scale-105 transition duration-300 ease-in-out rounded-lg h-full" />
+                    </Link>
+                </div>
+                <div className="w-3/12">
+                    <p className="font-bold text-orange-500 text-3xl mb-2">Kolawole's Portfolio</p>
+                    <p className="text-xxxl leading-relaxed my-4">Online portfolio for Kolawole Popoola, A digital product designer.</p>
+                    <Button content="View Project" className="bg-orange-500 text-white py-2 px-4 border border-orange-100 rounded-md text-xxxl"></Button>
+                </div>
+            </div>
+            {/* </div> */}
             {/* End of Project Section */}
 
             <Footer></Footer>

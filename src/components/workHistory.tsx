@@ -8,12 +8,12 @@ const WorkHistory = (props: any) => {
     const relevantLinks = props.relevantLinks
     return (
         <div>
-            <section className="flex justify-center items-center flex-col my-52 text-center">
+            <section className="items-center flex-col my-52 mx-24">
                 <p className="font-bold text-violet-500 text-5xl">{companyName}</p>
                 <p className="mt-8 text-xl text-dark">({duration})</p>
                 <p className="mt-2 text-xl text-dark">{jobTitle}</p>
-                <p className="w-3/4 text-xl leading-relaxed mt-8">{roleDescription}</p>
-                <p className="w-3/4 text-xl leading-relaxed mt-8"><b>Reference(s):</b> <Link className="text-violet-500" href={relevantLinks}>{relevantLinks}</Link></p>
+                <p className="text-xl leading-relaxed mt-8">{roleDescription}</p>
+                <p className="w-3/4 text-xl leading-relaxed mt-8"><b>Reference(s):</b> <Link target="_blank" className="text-violet-500" href={relevantLinks}>{relevantLinks} </Link></p>
                 <p className="mt-8 text-xl text-violet-500 font-bold">Technologies: {technologies}</p>
             </section>
         </div>

@@ -41,10 +41,10 @@ const About = (props: any) => {
                     <p className=" mt-16 text-xl leading-relaxed"> You can read more about my career overview on the <Link href="/work" className="text-red-500">work page</Link>.</p>
 
                     <p className=" mt-8 text-xl text-dark leading-relaxed">My Software Engineering journey is a very surprising one. In 2017,
-                        I wanted to be a <span className="text-zinc-500 font-extrabold">Network Engineer</span>. I had a four month <span className="text-zinc-500 font-extrabold">Industrial Training </span>
-                        where I was meant to be trained as a <span className="text-zinc-500 font-extrabold">Network Engineer</span>,
-                        the <span className="text-zinc-500 font-extrabold">Network Engineers</span> where never available because it was a busy period for them, which made me spend the four months gettimng trained
-                        in <span className="text-zinc-500 font-extrabold">System Adminstration.</span> <br></br> <br></br> During that period, I spent a lot of time around the software engineers and became very very curious
+                        I wanted to be a <span className="italic font-extrabold text-dark-200">Network Engineer</span>. I had a four month <span className="italic font-extrabold text-dark-200">Industrial Training </span>
+                        where I was meant to be trained as a <span className="italic font-extrabold text-dark-200">Network Engineer</span>,
+                        the <span className="italic font-extrabold text-dark-200">Network Engineers</span> where never available because it was a busy period for them, which made me spend the four months getting trained
+                        in <span className="italic font-extrabold text-dark-200">System Adminstration.</span> <br></br> <br></br> During that period, I spent a lot of time around the software engineers and became very very curious
                         and interested in what they did, which had me trying a lot of things.</p>
                 </div>
                 <Image src={Charles}

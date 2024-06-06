@@ -9,11 +9,11 @@ const Works = () => {
             {/* End of Header Component */}
 
             {/* Hero Section */}
-            <section className="flex justify-center flex-col items-center mt-36 mb-24">
-                <p className="text-center font-bold text-7xl leading-tight text-violet-500">
+            <section className=" mx-24 my-52">
+                <p className="font-bold text-7xl leading-tight text-violet-500">
                     Work History & <br></br> Career Overview.
                 </p>
-                <p className="text-center mt-8 text-xl text-violet-500 font-bold">(2017 - Present)</p>
+                <p className="mt-12 text-xl text-violet-500 font-bold text-right">(2017 - Present)</p>
             </section>
             {/* End of Hero Section */}
 
@@ -22,12 +22,19 @@ const Works = () => {
                 companyName="Flutterwave"
                 duration="2021 - Present"
                 jobTitle="Frontend Engineer (Engineer I, Engineer II)"
-                roleDescription="Over at Flutterwave; An African fintech company that provides a payment infrastructure
-                 for global merchants and payment service providers across the world, I currently work
-                 on the white-label product, where I've built on and managed existing products like the flutterwave dashboard
-                 and it's features like collections, payouts, bills payments, invoices etc
-                 and checkout for white-label merchants. I also worked on building email templates and oversaw implementation 
-                 of these emails across different products, marketing and brand emails."
+                roleDescription="In March 2021, I joined Flutterwave (An African fintech company that provides a payment 
+                infrastructure for global merchants and payment service providers across the world). I joined the white-label
+                team, 1/2 engineers. The white-label product is to support businesses with financial tools to reach their goals,
+                this was to be achieved based on existing Flutterwave products, like the dashboard and checkout tailored to the
+                view and feel of our merchants.
+                I also worked as a sole engineer in building email templates across different products, marketing and brand, overseeing
+                implementations of these emails. 
+                In 2022, I stopped working on email templates creation and implementation to focus fully on scaling the white-label 
+                product, I spent the latter part of that year onboarding the new engineer who was to work on email creation and 
+                implementation to ensure a seamless transition.
+                In 2023, I briefly led the white-label engineering team, after the departure of an engineer, 
+                I focused on onboarding a new engineer and scaling the products, wrote documentations on new 
+                engineering guidelines on building and managing white-label products."
                 technologies="Vue, Nuxt, SCSS, HTML, CSS, Handlebars.js, Git"
                 relevantLinks="">
             </WorkHistory>
