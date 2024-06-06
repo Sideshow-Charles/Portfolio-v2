@@ -45,7 +45,6 @@ const Projects = () => {
                     <Button content="View Project" className="bg-orange-500 text-white py-2 px-4 border border-orange-100 rounded-md text-xxxl"></Button>
                 </div>
             </div>
-            {/* </div> */}
             {/* End of Project Section */}
 
             <Footer></Footer>
