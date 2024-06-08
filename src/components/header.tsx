@@ -20,7 +20,7 @@ const Header = (props: any) => {
                 </ul>
             </div>
             <div className="text-sm">
-                <Button content="Let's Talk!" className="bg-gray-100 text-black py-2 px-4 border border-gray-100 rounded-md mx-2"></Button>
+                <Button content="Let's Talk!" className="bg-gray-100 text-black py-2 px-4 border border-gray-100 rounded-md mx-2 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 hover:bg-gray-100 duration-200"></Button>
                 <Button content="Get a copy of my resume" className={btnclassName}></Button>
             </div>
         </header>

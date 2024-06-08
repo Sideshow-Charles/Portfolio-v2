@@ -21,7 +21,7 @@ const Home = () => {
 
         {/* CTA Button */}
         <div className="flex justify-center mt-7">
-          <Link href="/projects"><Button content="View Projects &#8594;" className="bg-slate-950 text-white py-2 px-4 border border-slate-950 rounded-md mx-2"></Button></Link>
+          <Link href="/projects"><Button content="View Projects &#8594;" className="bg-slate-950 text-white py-2 px-4 border border-slate-950 rounded-md mx-2 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 hover:bg-dark duration-200"></Button></Link>
         </div>
         {/* End of CTA Button */}
       </section>
