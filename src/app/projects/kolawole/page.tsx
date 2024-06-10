@@ -39,7 +39,7 @@ const Kolawole = () => {
                     </p>
 
                     <p className="font-bold text-slate-950 text-3xl mt-24">Tools:</p>
-                    <p className="mt-8 text-xl leading-loose">Nuxt.js (a Vue.js framework), CSS, Javascript(ES6). It was designed by Kolawole Popoola.</p>
+                    <p className="mt-8 text-xl leading-loose">Nuxt.js (a Vue.js framework), CSS, Javascript(ES6). It was designed by <Link target="_blank" className="underline" href="https://www.linkedin.com/in/kolawole-popoola-b61664143/">Kolawole Popoola.</Link></p>
                 </div>
 
                 <div className="flex justify-between items-center">
