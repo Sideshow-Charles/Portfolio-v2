@@ -57,8 +57,8 @@ const Home = () => {
 
         <div className="flex justify-between items-center">
           <Link href="/projects"><ExploreCards
-            className="rounded-2xl text-white bg-orange-500 py-16 px-9 mr-6 text-center"
-            btnStyle="bg-white text-orange-500 py-4 px-8 rounded-lg mt-10"
+            className="rounded-2xl text-white bg-gray-500 py-16 px-9 mr-6 text-center"
+            btnStyle="bg-white text-gray-500 py-4 px-8 rounded-lg mt-10"
             contentHeader="Projects"
             contentBody="Take a look at projects I've worked on, from challanegs I faced, to how I solved them."
             btnContent="Projects &#8594;">
@@ -72,12 +72,12 @@ const Home = () => {
             btnContent="Work History &#8594;">
           </ExploreCards></Link>
         </div>
-        <ExploreCards className="rounded-2xl text-white bg-teal-500 py-16 px-9 text-center"
+        <a href="mailto:charlesonuoha97@gmail.com" target="_blank"><ExploreCards className="rounded-2xl text-white bg-teal-500 py-16 px-9 text-center"
           btnStyle="bg-white text-teal-500 py-4 px-8 rounded-lg mt-10"
           contentHeader="Want To Talk?"
-          contentBody="Find out where you can reach me. If you want to talk about software, podcasts, football and all of that good stuff.."
+          contentBody="Reach me if you want to talk about software, podcasts, football and all of that good stuff.."
           btnContent="Reach Out To Me &#8594;">
-        </ExploreCards>
+        </ExploreCards></a>
       </section>
       {/* End of explore cards section */}
 
