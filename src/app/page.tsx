@@ -13,7 +13,7 @@ const Home = () => {
       {/* End of Header Component */}
 
       <section className="flex justify-center flex-col items-center mt-36">
-        <p className="text-center font-bold text-7xl leading-tight md:text-5xl ease-in">
+        <p className="text-center font-bold text-7xl leading-tight ease-in">
           Charles Onuoha,<br></br>
           Software Engineer(Frontend).
         </p>
