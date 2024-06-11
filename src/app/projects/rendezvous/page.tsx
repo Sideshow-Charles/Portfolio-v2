@@ -5,7 +5,7 @@ import Footer from "@/components/footer"
 import Image from "next/image";
 import Link from "next/link"
 import EventMenu from "../../../../assets/images/event-menu.png"
-import EventMenu2 from "../../../../assets/images/eventmenu2.png"
+import EventMenu2 from "../../../../assets/images/EventMenu2.png"
 
 const Rendezvous = () => {
     return (
