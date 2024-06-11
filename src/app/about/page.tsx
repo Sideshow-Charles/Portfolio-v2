@@ -10,10 +10,10 @@ import Miccheque from "../../../assets/images/miccheque.jpeg";
 import SincerelyAccra from "../../../assets/images/sincerelyaccra.png";
 import Sobering from "../../../assets/images/sobering.jpeg";
 import TheDaily from "../../../assets/images/thedaily.jpeg";
-import ZeroConditions from "../../../assets/images/zeroconditions.jpeg"
-import GabandJuls from "../../../assets/images/GabandJuls.jpeg"
+import ZeroConditions from "../../../assets/images/zeroconditions.jpeg";
+import GabandJuls from "../../../assets/images/GabandJuls.jpeg";
 
-const About = (props: any) => {
+const About = () => {
     return (
         <div>
             {/* Header Component */}

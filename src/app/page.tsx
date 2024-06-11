@@ -2,7 +2,6 @@ import Link from "next/link"
 import Header from "@/components/header";
 import ExploreCards from "../components/exploreCards";
 import Button from "../components/button";
-import SubFooter from "@/components/subFooter";
 import Footer from "../components/footer";
 const Home = () => {
   return (
