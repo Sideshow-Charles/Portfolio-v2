@@ -9,8 +9,8 @@ const ExploreCards = (props:any) => {
         <div className="flex justify-center flex-col mb-11">
             <div className={className}>
                 <div className="px-6 py-4">
-                    <div className="font-bold mb-8 text-5xl leading-normal">{contentHeader}</div>
-                    <p className="text-xl leading-relaxed">
+                    <div className="font-bold mb-8 text-5xl leading-normal max-md:text-3xl">{contentHeader}</div>
+                    <p className="text-xl leading-relaxed max-md:text-lg leading-loose">
                         {contentBody}
                     </p>
                     <Button content={btnContent} className={btnStyle}></Button>
