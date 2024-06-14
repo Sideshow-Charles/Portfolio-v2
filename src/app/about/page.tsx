@@ -47,7 +47,7 @@ const About = () => {
                     className="max-md:w-full mb-24"
                 ></Image>
             </section>
-            <section className="flex flex-col my-24 mx-24 px-16 max-md:mx-12 px-8 max-sm:mx-6 px-0">
+            <section className="flex flex-col my-24 mx-24 px-16 max-md:px-0 max-sm:mx-6 px-0">
                 <p className="text-red-500 font-bold text-5xl">Skills & Tools.</p>
                 <p className="mt-8 text-xl leading-relaxed w-3/4 max-md:w-full">Across my four year career as a Frontend Engineer, working on
                     different products across different sectors, here are tools I've used to get work done and very conformtable working with;</p>
@@ -55,7 +55,7 @@ const About = () => {
                     React, Vue, Next, Nuxt, Jest, Git, Postman</p>
             </section>
 
-            <section className="flex flex-col my-52 mx-24 px-16 max-md:mx-12 px-8 max-sm:mx-6 px-0">
+            <section className="flex flex-col my-52 mx-24 px-16 max-md:px-0 max-sm:mx-6 px-0">
                 <p className="text-red-500 font-bold text-5xl">When I'm Not Writing Code?</p>
                 <p className="mt-8 text-xl leading-relaxed w-3/4 max-md:w-full">When I'm not at work or writing code, I listen to a lot of music; notthing specific,
                 ranging across multiple genres. Pusha T this minute, Estelle the next, nothing limited. <br></br><br></br>
