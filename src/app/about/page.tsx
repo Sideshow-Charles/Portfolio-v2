@@ -23,18 +23,18 @@ const About = () => {
             <section className="flex justify-around items-start my-48 mx-24 max-md:flex-col-reverse max-sm:mx-6">
                 <div className="w-3/6 max-md:w-full">
                     <p className="font-bold text-5xl text-red-500 max-md:text-4xl max-sm:text-3xl">Overview.</p>
-                    <p className="mt-8 text-xl text-dark leading-relaxed">I'm Charles, A Frontend Engineer with over four years
+                    <p className="mt-8 text-xl text-dark leading-relaxed max-md:text-lg max-sm:text-base leading-loose">I'm Charles, A Frontend Engineer with over four years
                         of experience in developing, and deploying high-performance software solutions. Proven expertise in Javascript
                         and it’s frameworks, coupled with a strong foundation in product knowledge. Adept at collaborating with
                         cross-functional teams and delivering robust, scalable solutions to meet business objectives.</p>
 
-                    <p className=" mt-16 text-xl leading-relaxed">I currently work at <a href="https://flutterwave.com" className="text-red-500">Flutterwave</a>, An African fintech company that provides a payment infrastructure for global merchants and payment service providers across the world.
-                        Before then, I worked at <a href="https://www.instiq.com" className="text-red-500">Instiq</a>, a software solutions company that specializes in
+                    <p className=" mt-16 text-xl leading-relaxed max-md:text-lg max-sm:text-base leading-loose">I currently work at <a target="_blank" href="https://flutterwave.com" className="text-red-500">Flutterwave</a>, An African fintech company that provides a payment infrastructure for global merchants and payment service providers across the world.
+                        Before then, I worked at <a target="_blank" href="https://www.instiq.com" className="text-red-500">Instiq</a>, a software solutions company that specializes in
                         building software solutions across different sectors.</p>
 
-                    <p className=" mt-16 text-xl leading-relaxed"> You can read more about my career overview on the <Link href="/work" className="text-red-500">work page</Link>.</p>
+                    <p className=" mt-16 text-xl leading-relaxed max-md:text-lg max-sm:text-base leading-loose"> You can read more about my career overview on the <Link href="/work" className="text-red-500">work page</Link>.</p>
 
-                    <p className=" mt-8 text-xl text-dark leading-relaxed">My Software Engineering journey is a very surprising one. In 2017,
+                    <p className=" mt-8 text-xl text-dark leading-relaxed max-md:text-lg max-sm:text-base leading-loose">My Software Engineering journey is a very surprising one. In 2017,
                         I wanted to be a <span className="italic font-extrabold text-dark-200">Network Engineer</span>. I had a four month <span className="italic font-extrabold text-dark-200">Industrial Training </span>
                         where I was meant to be trained as a <span className="italic font-extrabold text-dark-200">Network Engineer</span>,
                         the <span className="italic font-extrabold text-dark-200">Network Engineers</span> where never available because it was a busy period for them, which made me spend the four months getting trained
@@ -49,15 +49,15 @@ const About = () => {
             </section>
             <section className="flex flex-col my-24 mx-24 px-16 max-md:px-0 max-sm:mx-6 px-0">
                 <p className="text-red-500 font-bold text-5xl max-md:text-4xl max-sm:text-3xl">Skills & Tools.</p>
-                <p className="mt-8 text-xl leading-relaxed w-3/4 max-md:w-full">Across my four year career as a Frontend Engineer, working on
+                <p className="mt-8 text-xl leading-relaxed w-3/4 max-md:w-full text-lg max-sm:text-base leading-loose">Across my four year career as a Frontend Engineer, working on
                     different products across different sectors, here are tools I've used to get work done and very conformtable working with;</p>
-                <p className="text-dark-200 mt-8 text-xl leading-relaxed font-extrabold w-2/4 max-md:w-full">HTML5, CSS, SCSS, Bootstrap, Tailwind Javascript, Typescript,
+                <p className="text-dark-200 mt-8 text-xl leading-relaxed font-extrabold w-2/4 max-md:w-full max-sm:text-base leading-loose">HTML5, CSS, SCSS, Bootstrap, Tailwind Javascript, Typescript,
                     React, Vue, Next, Nuxt, Jest, Git, Postman</p>
             </section>
 
             <section className="flex flex-col my-52 mx-24 px-16 max-md:px-0 max-sm:mx-6 px-0">
                 <p className="text-red-500 font-bold text-5xl max-md:text-4xl max-sm:text-3xl">When I'm Not Writing Code?</p>
-                <p className="mt-8 text-xl leading-relaxed w-3/4 max-md:w-full">When I'm not at work or writing code, I listen to a lot of music; notthing specific,
+                <p className="mt-8 text-xl leading-relaxed w-3/4 max-md:w-full text-lg max-sm:text-base leading-loose">When I'm not at work or writing code, I listen to a lot of music; notthing specific,
                 ranging across multiple genres. Pusha T this minute, Estelle the next, nothing limited. <br></br><br></br>
                 
                 I watch a lot of football, I'm a Manchester United fan with keen interest in clubs like 

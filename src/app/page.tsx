@@ -12,7 +12,7 @@ const Home = () => {
       {/* End of Header Component */}
 
       <section className="flex justify-center flex-col items-center mt-36">
-        <p className="text-center font-bold text-7xl leading-tight ease-in max-md:text-5xl leading-loose max-sm:text-4xl">
+        <p className="text-center font-bold text-7xl leading-tight max-md:text-5xl max-sm:text-4xl">
           Charles Onuoha,<br></br>
           Software Engineer(Frontend).
         </p>
@@ -30,7 +30,7 @@ const Home = () => {
           Brief Overview
         </p>
         <p className="font-bold mb-8 text-6xl max-md:text-3xl">Sleep, Code && Repeat</p>
-        <p className="text-center w-3/4 text-xl leading-relaxed max-md:w-full px-12">
+        <p className="text-center w-3/4 text-xl leading-normal max-md:w-full px-4 max-sm:text-base leading-10">
           With a keen eye for design and a deep understanding of the latest web
           technologies, I'm a driving force in crafting seamless and intuitive
           interfaces while implementing and maintaining functionality. My
