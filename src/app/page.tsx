@@ -30,7 +30,7 @@ const Home = () => {
           Brief Overview
         </p>
         <p className="font-bold mb-8 text-6xl max-md:text-3xl">Sleep, Code && Repeat</p>
-        <p className="text-center w-3/4 text-xl leading-relaxed max-md:w-full">
+        <p className="text-center w-3/4 text-xl leading-relaxed max-md:w-full mx-12">
           With a keen eye for design and a deep understanding of the latest web
           technologies, I'm a driving force in crafting seamless and intuitive
           interfaces while implementing and maintaining functionality. My
