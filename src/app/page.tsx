@@ -29,8 +29,8 @@ const Home = () => {
         <p className="font-extrabold text-xl text-zinc-700 mb-8 max-md:text-lg">
           Brief Overview
         </p>
-        <p className="font-bold mb-8 text-6xl max-md:text-3xl max-sm:text-left">Sleep, Code && Repeat</p>
-        <p className="text-center w-3/4 text-xl leading-relaxed max-md:text-lg leading-loose w-full px-6">
+        <p className="font-bold mb-8 text-6xl max-md:text-3xl">Sleep, Code && Repeat</p>
+        <p className="text-center w-3/4 text-xl leading-relaxed">
           With a keen eye for design and a deep understanding of the latest web
           technologies, I'm a driving force in crafting seamless and intuitive
           interfaces while implementing and maintaining functionality. My
