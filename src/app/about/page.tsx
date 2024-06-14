@@ -20,8 +20,8 @@ const About = () => {
             <Header btnclassName="bg-red-500 text-white py-2 px-4 border border-red-500 rounded-md mx-2"></Header>
             {/* End of Header Component */}
 
-            <section className="flex justify-around items-start my-48 mx-24">
-                <div className="w-3/6">
+            <section className="flex justify-around items-start my-48 mx-24 max-md:flex-col-reverse max-sm:mx-6">
+                <div className="w-3/6 max-md:w-full">
                     <p className="font-bold text-5xl text-red-500">Overview.</p>
                     <p className="mt-8 text-xl text-dark leading-relaxed">I'm Charles, A Frontend Engineer with over four years
                         of experience in developing, and deploying high-performance software solutions. Proven expertise in Javascript
@@ -44,19 +44,20 @@ const About = () => {
                 <Image src={Charles}
                     alt="Logo"
                     width={350}
+                    className="max-md:w-full mb-24"
                 ></Image>
             </section>
-            <section className="flex flex-col my-24 mx-24 px-16">
+            <section className="flex flex-col my-24 mx-24 px-16 max-md:mx-12 px-8 max-sm:mx-6 px-0">
                 <p className="text-red-500 font-bold text-5xl">Skills & Tools.</p>
-                <p className="mt-8 text-xl leading-relaxed w-3/4">Across my four year career as a Frontend Engineer, working on
+                <p className="mt-8 text-xl leading-relaxed w-3/4 max-md:w-full">Across my four year career as a Frontend Engineer, working on
                     different products across different sectors, here are tools I've used to get work done and very conformtable working with;</p>
-                <p className="text-dark-200 mt-8 text-xl leading-relaxed font-extrabold w-2/4">HTML5, CSS, SCSS, Bootstrap, Tailwind Javascript, Typescript,
+                <p className="text-dark-200 mt-8 text-xl leading-relaxed font-extrabold w-2/4 max-md:w-full">HTML5, CSS, SCSS, Bootstrap, Tailwind Javascript, Typescript,
                     React, Vue, Next, Nuxt, Jest, Git, Postman</p>
             </section>
 
-            <section className="flex flex-col my-52 mx-24 px-16">
+            <section className="flex flex-col my-52 mx-24 px-16 max-md:mx-12 px-8 max-sm:mx-6 px-0">
                 <p className="text-red-500 font-bold text-5xl">When I'm Not Writing Code?</p>
-                <p className="mt-8 text-xl leading-relaxed w-3/4">When I'm not at work or writing code, I listen to a lot of music; notthing specific,
+                <p className="mt-8 text-xl leading-relaxed w-3/4 max-md:w-full">When I'm not at work or writing code, I listen to a lot of music; notthing specific,
                 ranging across multiple genres. Pusha T this minute, Estelle the next, nothing limited. <br></br><br></br>
                 
                 I watch a lot of football, I'm a Manchester United fan with keen interest in clubs like 
