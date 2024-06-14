@@ -20,7 +20,7 @@ const About = () => {
             <Header btnclassName="bg-red-500 text-white py-2 px-4 border border-red-500 rounded-md mx-2"></Header>
             {/* End of Header Component */}
 
-            <section className="flex justify-around items-start my-48 mx-24 max-md:flex-col-reverse max-sm:mx-6">
+            <section className="flex justify-around items-start my-48 mx-24 max-md:flex-col-reverse my-12 max-sm:mx-6">
                 <div className="w-3/6 max-md:w-full">
                     <p className="font-bold text-5xl text-red-500">Overview.</p>
                     <p className="mt-8 text-xl text-dark leading-relaxed">I'm Charles, A Frontend Engineer with over four years
