@@ -64,7 +64,7 @@ const About = () => {
                 Tottenham Hotspur and Inter Milan.<br></br><br></br>
 
                 I'm very big on podcasts, here a selected few of them I listen to; </p>
-                <div className="flex justify-around flex-wrap my-16 mx-24">
+                <div className="flex justify-around flex-wrap my-16 mx-8">
                 <Image src={Essential}
                     alt="234 Essential Podcast"
                     width={300}
