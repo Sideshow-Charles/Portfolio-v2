@@ -25,7 +25,7 @@ const Home = () => {
         {/* End of CTA Button */}
       </section>
 
-      <section className="flex justify-center items-center flex-col text-center h-96 my-48">
+      <section className="flex justify-center items-center flex-col text-center my-48">
         <p className="font-extrabold text-xl text-zinc-700 mb-8 max-md:text-lg">
           Brief Overview
         </p>
