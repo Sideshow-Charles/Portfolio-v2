@@ -22,7 +22,7 @@ const About = () => {
 
             <section className="flex justify-around items-start my-48 mx-24 max-md:flex-col-reverse my-12 max-sm:mx-6">
                 <div className="w-3/6 max-md:w-full">
-                    <p className="font-bold text-5xl text-red-500">Overview.</p>
+                    <p className="font-bold text-5xl text-red-500 max-md:text-4xl max-sm:text-3xl">Overview.</p>
                     <p className="mt-8 text-xl text-dark leading-relaxed">I'm Charles, A Frontend Engineer with over four years
                         of experience in developing, and deploying high-performance software solutions. Proven expertise in Javascript
                         and it’s frameworks, coupled with a strong foundation in product knowledge. Adept at collaborating with
@@ -48,7 +48,7 @@ const About = () => {
                 ></Image>
             </section>
             <section className="flex flex-col my-24 mx-24 px-16 max-md:px-0 max-sm:mx-6 px-0">
-                <p className="text-red-500 font-bold text-5xl">Skills & Tools.</p>
+                <p className="text-red-500 font-bold text-5xl max-md:text-4xl max-sm:text-3xl">Skills & Tools.</p>
                 <p className="mt-8 text-xl leading-relaxed w-3/4 max-md:w-full">Across my four year career as a Frontend Engineer, working on
                     different products across different sectors, here are tools I've used to get work done and very conformtable working with;</p>
                 <p className="text-dark-200 mt-8 text-xl leading-relaxed font-extrabold w-2/4 max-md:w-full">HTML5, CSS, SCSS, Bootstrap, Tailwind Javascript, Typescript,
@@ -56,7 +56,7 @@ const About = () => {
             </section>
 
             <section className="flex flex-col my-52 mx-24 px-16 max-md:px-0 max-sm:mx-6 px-0">
-                <p className="text-red-500 font-bold text-5xl">When I'm Not Writing Code?</p>
+                <p className="text-red-500 font-bold text-5xl max-md:text-4xl max-sm:text-3xl">When I'm Not Writing Code?</p>
                 <p className="mt-8 text-xl leading-relaxed w-3/4 max-md:w-full">When I'm not at work or writing code, I listen to a lot of music; notthing specific,
                 ranging across multiple genres. Pusha T this minute, Estelle the next, nothing limited. <br></br><br></br>
                 
@@ -64,7 +64,7 @@ const About = () => {
                 Tottenham Hotspur and Inter Milan.<br></br><br></br>
 
                 I'm very big on podcasts, here a selected few of them I listen to; </p>
-                <div className="flex justify-around flex-wrap my-16">
+                <div className="flex justify-around flex-wrap my-16 mx-24">
                 <Image src={Essential}
                     alt="234 Essential Podcast"
                     width={300}
