@@ -15,7 +15,7 @@ const Projects = () => {
 
             {/* Hero Section */}
             <section className=" mt-36 mx-24 text-center max-md:mx-12 max-sm:mx-6">
-                <p className="font-bold text-7xl leading-tight text-gray-500 max-md:text-5xl max-sm:text-4xl">Checkout Selected <br></br>Projects I've Worked On.</p>
+                <p className="font-bold text-7xl leading-tight text-gray-500 max-md:text-5xl max-sm:text-4xl">Selected Projects</p>
                 <p className="mt-8 text-xl text-gray-500 max-md:text-lg max-sm:text-base">Take a look at a few projects I've worked on, from challanegs I faced,<br></br> to how I solved them.</p>
             </section>
             {/* End of Hero Section */}
@@ -27,7 +27,7 @@ const Projects = () => {
                         <Image src={rendezvous} alt="Project Image" className="hover:scale-105 transition duration-300 ease-in-out rounded-lg h-full" />
                     </Link>
                 </div>
-                <div className="w-3/12 text-right max-md:text-left w-full my-12">
+                <div className="w-3/12 max-md:w-full text-left my-12">
                     <p className="font-bold text-gray-500 text-3xl mb-2">Rendezvous</p>
                     <p className="text-xxxl leading-relaxed my-4">Rendezvous is a merchant view of an event manangement system.</p>
                     <Link href="/projects/rendezvous"><Button content="View Project" className="bg-gray-500 text-white py-2 px-4 border border-gray-100 rounded-md transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 hover:bg-gray-600 duration-200"></Button></Link>
@@ -53,7 +53,7 @@ const Projects = () => {
                         <Image src={rickandmorty} alt="Project Image" className="hover:scale-105 transition duration-300 ease-in-out rounded-lg h-full" />
                     </Link>
                 </div>
-                <div className="w-3/12 max-md:text-left w-full my-12">
+                <div className="w-3/12 max-md:w-full text-left my-12">
                     <p className="font-bold text-gray-500 text-3xl mb-2">Rick and Morty info</p>
                     <p className="text-xxxl leading-relaxed my-4">Locations, Characters and Episodes of popular TV show, Rick and Morty.</p>
                     <Link href="/projects/rick-and-morty"><Button content="View Project" className="bg-gray-500 text-white py-2 px-4 border border-gray-100 rounded-md transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 hover:bg-gray-600 duration-200"></Button></Link>
