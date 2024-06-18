@@ -21,7 +21,7 @@ const Projects = () => {
             {/* End of Hero Section */}
 
             {/* Project Section */}
-            <div className="flex justify-around items-center my-52 mx-16 max-md:flex-col mx-6">
+            <div className="flex justify-around items-center my-36 mx-16 max-md:flex-col my-16 mx-6">
                 <div className="w-8/12 max-md:w-full">
                     <Link href="/projects/rendezvous">
                         <Image src={rendezvous} alt="Project Image" className="hover:scale-105 transition duration-300 ease-in-out rounded-lg h-full" />
@@ -34,7 +34,7 @@ const Projects = () => {
                 </div>
             </div>
 
-            <div className="flex justify-around items-center flex-row-reverse my-52 mx-16 max-md:flex-col mx-6">
+            <div className="flex justify-around items-center flex-row-reverse my-36 mx-16 max-md:flex-col mx-6">
                 <div className="w-8/12 max-md:w-full">
                     <Link href="/projects/kolawole">
                         <Image src={kolawole} alt="Project Image" className="hover:scale-105 transition duration-300 ease-in-out rounded-lg h-full" />
@@ -47,7 +47,7 @@ const Projects = () => {
                 </div>
             </div>
 
-            <div className="flex justify-around items-center my-52 mx-16 max-md:flex-col mx-6">
+            <div className="flex justify-around items-center my-36 mx-16 max-md:flex-col mx-6">
                 <div className="w-8/12 max-md:w-full">
                     <Link href="/projects/rick-and-morty">
                         <Image src={rickandmorty} alt="Project Image" className="hover:scale-105 transition duration-300 ease-in-out rounded-lg h-full" />
