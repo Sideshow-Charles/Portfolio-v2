@@ -11,7 +11,7 @@ const Home = () => {
         btnclassName="bg-slate-950 text-white py-2 px-4 border border-slate-950 rounded-md mx-2"></Header>
       {/* End of Header Component */}
 
-      <section className="flex justify-center flex-col items-center mt-36">
+      <section className="flex justify-center flex-col items-center mt-36 max-w-7xl mx-auto">
         <p className="text-center font-bold text-7xl leading-tight max-md:text-5xl max-sm:text-4xl">
           Charles Onuoha,<br></br>
           Software Engineer(Frontend).
@@ -44,7 +44,7 @@ const Home = () => {
 
 
       {/* explore cards section */}
-      <section className="my-48 mx-auto w-4/5 max-md:w-12/12">
+      <section className="my-48 max-w-7xl mx-auto w-4/5 max-md:w-12/12">
         <Link href="/about"> <ExploreCards
           className="rounded-2xl text-white bg-red-500 py-16 px-9 text-center max-md:px-3"
           btnStyle="bg-white text-red-500 py-4 px-8 rounded-lg mt-10 max-md:px-4 text-base"
