@@ -11,7 +11,7 @@ const Home = () => {
         btnclassName="bg-slate-950 text-white py-2 px-4 border border-slate-950 rounded-md mx-2"></Header>
       {/* End of Header Component */}
 
-      <section className="flex justify-center flex-col items-center mt-36 max-w-7xl mx-auto">
+      <section className="flex justify-center flex-col items-center mt-36">
         <p className="text-center font-bold text-7xl leading-tight max-md:text-5xl max-sm:text-4xl">
           Charles Onuoha,<br></br>
           Software Engineer(Frontend).

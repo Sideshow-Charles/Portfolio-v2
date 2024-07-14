@@ -67,48 +67,48 @@ const About = () => {
                     <div className="flex justify-between flex-wrap my-16 max-md:justify-center">
                         <Image src={Essential}
                             alt="234 Essential Podcast"
-                            width={350}
+                            width={330}
                             className="mb-16 rounded-md"
                         ></Image>
                         <Image src={HappyHour}
                             alt="Frontend Happy Hour Podcast"
-                            width={350}
+                            width={330}
                             className="mb-16 rounded-md"
                         ></Image>
                         <Image src={LooseTalk}
                             alt="Logo"
-                            width={350}
+                            width={330}
                             className="mb-16 rounded-md"
                         ></Image>
                         <Image src={Miccheque}
                             alt="Logo"
-                            width={350}
+                            width={330}
                             className="mb-16 rounded-md"
                         ></Image>
                         <Image src={SincerelyAccra}
                             alt="Logo"
-                            width={350}
+                            width={330}
                             className="mb-16 rounded-md"
                         ></Image>
                         <Image src={TheDaily}
                             alt="Logo"
-                            width={350}
+                            width={330}
                             className="mb-16 rounded-md"
                         ></Image>
                         <Image src={ZeroConditions}
                             alt="Logo"
-                            width={350}
+                            width={330}
                             className="mb-16 rounded-md"
                         ></Image>
                         <Image src={Sobering}
                             alt="Logo"
-                            width={350}
+                            width={330}
                             className="mb-16 rounded-md"
                         ></Image>
                         <Image src={GabandJuls}
                             alt="Logo"
-                            width={350}
-                            className="mb-16 rounded-md"
+                            width={330}
+                            className="mb-16 rounded-md max-md:mb-0"
                         ></Image>
                     </div>
                 </section>

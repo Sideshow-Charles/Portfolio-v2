@@ -21,8 +21,8 @@ const Rendezvous = () => {
                     <p className="mt-8 text-xl leading-loose max-md:text-lg max-sm:text-base">Event Planning and Organization, Registration and Ticketing,<br></br>
                         all in one place.</p>
                     <div className="flex justify-center mt-8">
-                        <Link target="_blank" href="https://rendezvous-black.vercel.app"><Button content="View Live" className="bg-slate-950 text-white py-2 px-4 border border-slate-950 rounded-md mx-2 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 hover:bg-dark duration-200 text-xl max-md:text-lg max-sm:text-base"></Button></Link>
-                        <Link target="_blank" href="https://github.com/Sideshow-Charles/Rendezvous"><Button content="View On Github" className="bg-slate-950 text-white py-2 px-4 border border-slate-950 rounded-md mx-2 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 hover:bg-dark duration-200 text-xl max-md:text-lg max-sm:text-base"></Button></Link>
+                        <Link target="_blank" href="https://rendezvous-black.vercel.app"><Button content="View Live" className="bg-slate-950 text-white py-2 px-4 border border-slate-950 rounded-md mx-2 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 hover:bg-dark duration-200 max-md:text-lg max-sm:text-base"></Button></Link>
+                        <Link target="_blank" href="https://github.com/Sideshow-Charles/Rendezvous"><Button content="View On Github" className="bg-slate-950 text-white py-2 px-4 border border-slate-950 rounded-md mx-2 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 hover:bg-dark duration-200 max-md:text-lg max-sm:text-base"></Button></Link>
                     </div>
                 </div>
 

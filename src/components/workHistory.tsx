@@ -8,7 +8,7 @@ const WorkHistory = (props: any) => {
     const relevantLinks = props.relevantLinks
     return (
         <div>
-            <section className="items-center flex-col my-52 mx-24 max-md:mx-12 max-sm:mx-6">
+            <section className="items-center flex-col my-52 max-md:mx-12 max-sm:mx-6">
                 <p className="font-bold text-violet-500 text-5xl max-md:text-4xl">{companyName}</p>
                 <p className="mt-8 text-xl text-dark max-md:text-lg max-sm:text-base">({duration})</p>
                 <p className="mt-2 text-xl text-dark max-md:text-lg max-sm:text-base">{jobTitle}</p>

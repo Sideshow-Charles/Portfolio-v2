@@ -5,24 +5,25 @@ const Works = () => {
     return (
         <div>
             {/* Header Component */}
-                <Header btnclassName="bg-violet-500 text-white py-2 px-4 border border-violet-500 rounded-md mx-2"></Header>
+            <Header btnclassName="bg-violet-500 text-white py-2 px-4 border border-violet-500 rounded-md mx-2"></Header>
             {/* End of Header Component */}
 
-            {/* Hero Section */}
-            <section className=" mx-24 my-52 max-md:mx-12 max-sm:mx-6">
-                <p className="font-bold text-7xl leading-tight text-violet-500 max-md:text-5xl leading-loose max-sm:text-4xl">
-                    Work History & <br></br> Career Overview.
-                </p>
-                <p className="mt-12 text-xl text-violet-500 font-bold text-right max-md:text-lg max-sm:text-base">(2017 - Present)</p>
-            </section>
-            {/* End of Hero Section */}
+            <div className="max-w-7xl mx-auto">
+                {/* Hero Section */}
+                <section className="text-center my-52 max-md:mx-12 max-sm:mx-6">
+                    <p className="font-bold text-7xl leading-tight text-violet-500 max-md:text-5xl leading-loose max-sm:text-4xl">
+                        Work History & <br></br> Career Overview.
+                    </p>
+                    {/* <p className="mt-12 text-xl text-violet-500 font-bold max-md:text-lg max-sm:text-base">(2017 - Present)</p> */}
+                </section>
+                {/* End of Hero Section */}
 
-            {/* Work History Section */}
-            <WorkHistory
-                companyName="Flutterwave"
-                duration="2021 - Present"
-                jobTitle="Frontend Engineer (Engineer I, Engineer II)"
-                roleDescription="In March 2021, I joined Flutterwave (An African fintech company that provides a payment 
+                {/* Work History Section */}
+                <WorkHistory
+                    companyName="Flutterwave"
+                    duration="2021 - Present"
+                    jobTitle="Frontend Engineer (Engineer I, Engineer II)"
+                    roleDescription="In March 2021, I joined Flutterwave (An African fintech company that provides a payment 
                 infrastructure for global merchants and payment service providers across the world). I joined the white-label
                 team, 1/2 engineers. The white-label product is to support businesses with financial tools to reach their goals,
                 this was to be achieved based on existing Flutterwave products, like the dashboard and checkout tailored to the
@@ -35,33 +36,33 @@ const Works = () => {
                 In 2023, I briefly led the white-label engineering team, after the departure of an engineer, 
                 I focused on onboarding a new engineer and scaling the products, wrote documentations on new 
                 engineering guidelines on building and managing white-label products."
-                technologies="Vue, Nuxt, SCSS, HTML, CSS, Handlebars.js, Git"
-                relevantLinks="">
-            </WorkHistory>
+                    technologies="Vue, Nuxt, SCSS, HTML, CSS, Handlebars.js, Git"
+                    relevantLinks="">
+                </WorkHistory>
 
-            <WorkHistory
-                companyName="Instiq"
-                duration="August 2020 - November 2020"
-                jobTitle="Junior Frontend Engineer"
-                roleDescription="In my short time at Instiq, I worked on two different projects. One was a microfinance bank
+                <WorkHistory
+                    companyName="Instiq"
+                    duration="August 2020 - November 2020"
+                    jobTitle="Junior Frontend Engineer"
+                    roleDescription="In my short time at Instiq, I worked on two different projects. One was a microfinance bank
                  for a client, which included everyday financial features like funds transfer and bill payments. 
                  Second project was an online portfolio for a construction company based in Ekiti, Nigeria,
                  with ecommerce functionalities."
-                relevantLinks="https://canaantowersltd.com"
-                technologies="React, Vue, CSS, SCSS, Bootstrap, Javascript, HTML, Git">
-            </WorkHistory>
+                    relevantLinks="https://canaantowersltd.com"
+                    technologies="React, Vue, CSS, SCSS, Bootstrap, Javascript, HTML, Git">
+                </WorkHistory>
 
-            <WorkHistory
-                companyName="Lopworks"
-                duration="May 2017 - August 2017"
-                jobTitle="System Adminstration Intern"
-                roleDescription="Managed Linux serves, which included scheduled updates and upgrades.
+                <WorkHistory
+                    companyName="Lopworks"
+                    duration="May 2017 - August 2017"
+                    jobTitle="System Adminstration Intern"
+                    roleDescription="Managed Linux serves, which included scheduled updates and upgrades.
                 Set up virtual environments for installations for new updates."
-                relevantLinks=""
-                technologies="VMware, CentOS">
-            </WorkHistory>
-            {/* End of Work History Section */}
-
+                    relevantLinks=""
+                    technologies="VMware, CentOS">
+                </WorkHistory>
+                {/* End of Work History Section */}
+            </div>
             <Footer></Footer>
         </div>
     )
