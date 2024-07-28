@@ -23,40 +23,45 @@ const Projects = () => {
             {/* Project Section */}
             <div className="flex justify-around items-center my-36 mx-16 max-md:flex-col my-16 mx-6">
                 <div className="w-8/12 max-md:w-full">
-                    <Link href="/projects/rendezvous">
+                    <Link target="_blank" href="https://rendezvous-black.vercel.app">
                         <Image src={rendezvous} alt="Project Image" className="hover:scale-105 transition duration-300 ease-in-out rounded-lg h-full" />
                     </Link>
                 </div>
                 <div className="w-3/12 max-md:w-full text-left my-12">
                     <p className="font-bold text-gray-500 text-3xl mb-2">Rendezvous</p>
                     <p className="text-xxxl leading-relaxed my-4">Rendezvous is a merchant view of an event manangement system.</p>
-                    <Link href="/projects/rendezvous"><Button content="View Project" className="bg-gray-500 text-white py-2 px-4 border border-gray-100 rounded-md transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 hover:bg-gray-600 duration-200"></Button></Link>
+                    <div className="flex">
+                    <Link target="_blank" href="https://rendezvous-black.vercel.app"><Button content="View Live" className="bg-gray-500 text-white py-2 px-4 border border-gray-100 rounded-md transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 hover:bg-gray-600 duration-200 mr-4"></Button></Link>
+                    <Link target="_blank" href="https://github.com/Sideshow-Charles/Rendezvous"><Button content="View On Github" className="bg-gray-500 text-white py-2 px-4 border border-gray-100 rounded-md transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 hover:bg-gray-600 duration-200"></Button></Link>
+                    </div>
                 </div>
             </div>
 
             <div className="flex justify-around items-center flex-row-reverse my-36 mx-16 max-md:flex-col mx-6">
                 <div className="w-8/12 max-md:w-full">
-                    <Link href="/projects/kolawole">
+                    <Link target="_blank" href="https://kola-beige.vercel.app">
                         <Image src={kolawole} alt="Project Image" className="hover:scale-105 transition duration-300 ease-in-out rounded-lg h-full" />
                     </Link>
                 </div>
                 <div className="w-3/12 max-md:w-full my-12">
                     <p className="font-bold text-gray-500 text-3xl mb-2">Kolawole's Portfolio</p>
                     <p className="text-xxxl leading-relaxed my-4">Online portfolio for Kolawole Popoola, A digital product designer.</p>
-                    <Link href="/projects/kolawole"><Button content="View Project" className="bg-gray-500 text-white py-2 px-4 border border-gray-100 rounded-md transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 hover:bg-gray-600 duration-200"></Button></Link>
+                    <Link target="_blank" href="https://kola-beige.vercel.app"><Button content="View Live" className="bg-gray-500 text-white py-2 px-4 border border-gray-100 rounded-md transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 hover:bg-gray-600 duration-200 mr-4"></Button></Link>
+                    <Link target="_blank" href="https://kola-beige.vercel.app"><Button content="View On Github" className="bg-gray-500 text-white py-2 px-4 border border-gray-100 rounded-md transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 hover:bg-gray-600 duration-200"></Button></Link>
                 </div>
             </div>
 
             <div className="flex justify-around items-center my-36 mx-16 max-md:flex-col mx-6">
                 <div className="w-8/12 max-md:w-full">
-                    <Link href="/projects/rick-and-morty">
+                    <Link target="_blank" href="https://rick-and-morty-six-gamma.vercel.app">
                         <Image src={rickandmorty} alt="Project Image" className="hover:scale-105 transition duration-300 ease-in-out rounded-lg h-full" />
                     </Link>
                 </div>
                 <div className="w-3/12 max-md:w-full text-left my-12">
                     <p className="font-bold text-gray-500 text-3xl mb-2">Rick and Morty info</p>
                     <p className="text-xxxl leading-relaxed my-4">Locations, Characters and Episodes of popular TV show, Rick and Morty.</p>
-                    <Link href="/projects/rick-and-morty"><Button content="View Project" className="bg-gray-500 text-white py-2 px-4 border border-gray-100 rounded-md transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 hover:bg-gray-600 duration-200"></Button></Link>
+                    <Link target="_blank" href="https://rick-and-morty-six-gamma.vercel.app"><Button content="View Live" className="bg-gray-500 text-white py-2 px-4 border border-gray-100 rounded-md transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 hover:bg-gray-600 duration-200 mr-4"></Button></Link>
+                    <Link target="_blank" href="https://github.com/Sideshow-Charles/rick-and-morty"><Button content="View On Github" className="bg-gray-500 text-white py-2 px-4 border border-gray-100 rounded-md transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 hover:bg-gray-600 duration-200"></Button></Link>
                 </div>
             </div>
             {/* End of Project Section */}
