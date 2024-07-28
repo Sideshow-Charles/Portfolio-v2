@@ -5,7 +5,7 @@ const Works = () => {
     return (
         <div>
             {/* Header Component */}
-            <Header btnclassName="bg-violet-500 text-white py-2 px-4 border border-violet-500 rounded-md mx-2"></Header>
+            <Header btnclassName="bg-violet-500 text-white py-2 px-4 border border-violet-500 rounded-md mx-2 hover:-translate-y-1 hover:scale-105 hover:bg-violet-700 duration-200"></Header>
             {/* End of Header Component */}
 
             <div className="max-w-7xl mx-auto">

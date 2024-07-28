@@ -10,13 +10,13 @@ const Projects = () => {
     return (
         <div>
             {/* Header Component */}
-            <Header btnclassName="bg-gray-500 text-white py-2 px-4 border border-gray-500 rounded-md mx-2"></Header>
+            <Header btnclassName="bg-gray-500 text-white py-2 px-4 border border-gray-500 rounded-md mx-2 hover:-translate-y-1 hover:scale-105 hover:bg-gray-700 duration-200"></Header>
             {/* End of Header Component */}
 
             {/* Hero Section */}
             <section className=" mt-36 mx-24 text-center max-md:mx-12 max-sm:mx-6">
-                <p className="font-bold text-7xl leading-tight text-gray-500 max-md:text-5xl max-sm:text-4xl">Selected Projects</p>
-                <p className="mt-8 text-xl text-gray-500 max-md:text-lg max-sm:text-base">Take a look at a few projects I've worked on, from challanegs I faced,<br></br> to how I solved them.</p>
+                <p className="font-bold text-7xl leading-tight text-gray-500 max-md:text-5xl max-sm:text-4xl">Selected Projects.</p>
+                <p className="mt-8 text-xl text-gray-500 max-md:text-lg max-sm:text-base">Take a look at a few projects I've worked on,<br></br> to see how I bring concepts to life, prioritize user experience.</p>
             </section>
             {/* End of Hero Section */}
 

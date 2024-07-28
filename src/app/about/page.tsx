@@ -17,7 +17,7 @@ const About = () => {
     return (
         <div>
             {/* Header Component */}
-            <Header btnclassName="bg-red-500 text-white py-2 px-4 border border-red-500 rounded-md mx-2"></Header>
+            <Header btnclassName="bg-red-500 text-white py-2 px-4 border border-red-500 rounded-md mx-2 hover:-translate-y-1 hover:scale-105 hover:bg-red-700 duration-200"></Header>
             {/* End of Header Component */}
             <div className="max-w-7xl mx-auto">
                 <section className="flex justify-around items-start my-48 max-md:flex-col-reverse max-sm:mx-6">

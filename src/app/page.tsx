@@ -8,7 +8,7 @@ const Home = () => {
     <div>
       {/* Header Component */}
       <Header
-        btnclassName="bg-slate-950 text-white py-2 px-4 border border-slate-950 rounded-md mx-2"></Header>
+        btnclassName="bg-slate-950 text-white py-2 px-4 border border-slate-950 rounded-md mx-2 hover:-translate-y-1 hover:scale-105 hover:bg-slate-950 duration-200"></Header>
       {/* End of Header Component */}
 
       <section className="flex justify-center flex-col items-center mt-36">
