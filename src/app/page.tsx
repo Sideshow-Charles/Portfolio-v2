@@ -56,8 +56,8 @@ const Home = () => {
 
         <div className="flex justify-between items-center max-md:flex-col">
           <Link href="/projects"><ExploreCards
-            className="rounded-2xl text-white bg-gray-500 py-16 px-9 mr-6 text-center max-md:mr-0"
-            btnStyle="bg-white text-gray-500 py-4 px-8 rounded-lg mt-10 max-md:px-4 text-base"
+            className="rounded-2xl text-white bg-sky-500 py-16 px-9 mr-6 text-center max-md:mr-0"
+            btnStyle="bg-white text-sky-500 py-4 px-8 rounded-lg mt-10 max-md:px-4 text-base"
             contentHeader="Projects"
             contentBody="Take a look at projects I've worked on, from challanegs I faced, to how I solved them."
             btnContent="Projects &#8594;">
