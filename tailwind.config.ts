@@ -15,5 +15,12 @@ const config: Config = {
       },
     },
   plugins: [],
+
+  theme: {
+    screens: {
+      'md': '1025px',
+      'sm': '640px'
+    }
+  }
 };
 export default config;

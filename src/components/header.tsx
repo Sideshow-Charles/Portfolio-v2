@@ -3,14 +3,14 @@ import Link from "next/link"
 import Button from "../components/button"
 import TheCharles from "../../assets/images/TheCharles.png"
 const Header = (props: any) => {
-const btnclassName = props.btnclassName
+const btnclassName:string = props.btnclassName
     return (
         <header className="flex justify-between items-center py-7 px-24 max-md:px-2">
             <Link href="/"><div>
                 <Image src={TheCharles}
                     alt="Logo"
                     width={200}
-                    className="max-md:w-5/6"
+                    className="max-md:w-11/12"
                 />
             </div></Link>
             <div className="max-md:hidden">

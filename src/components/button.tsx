@@ -1,7 +1,7 @@
 // making a button component to avoid overpopulating the codebase
 const Button = (props: any) => {
-    const content = props.content
-    const className = props.className
+    const content:string = props.content
+    const className:string = props.className
     return (
         <button className={className}>
             {content}

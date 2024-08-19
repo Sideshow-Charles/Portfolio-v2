@@ -13,14 +13,17 @@ import TheDaily from "../../../assets/images/thedaily.jpeg";
 import ZeroConditions from "../../../assets/images/zeroconditions.jpeg";
 import GabandJuls from "../../../assets/images/GabandJuls.jpeg";
 
+const podcasts = [{src: '../../../assets/images/234Essential.webp'}];
+// podcasts.forEach
+
 const About = () => {
     return (
         <div>
             {/* Header Component */}
-            <Header btnclassName="bg-red-500 text-white py-2 px-4 border border-red-500 rounded-md mx-2 hover:-translate-y-1 hover:scale-105 hover:bg-red-700 duration-200"></Header>
+            <Header btnclassName="bg-red-500 text-white py-2 px-4 border border-red-500 rounded-md mx-2 hover:-translate-y-1 hover:scale-105 hover:bg-red-700 duration-200 hover:shadow-2xl"></Header>
             {/* End of Header Component */}
             <div className="max-w-7xl mx-auto">
-                <section className="flex justify-around items-start my-48 max-md:flex-col-reverse max-sm:mx-6">
+                <section className="flex justify-around items-start my-48 max-md:flex-col-reverse max-md:mx-6 max-sm:mx-6">
                     <div className="w-3/6 max-md:w-full">
                         <p className="font-bold text-5xl text-red-500 max-md:text-4xl max-sm:text-3xl">Overview.</p>
                         <p className="mt-8 text-xl text-dark leading-relaxed max-md:text-lg max-sm:text-base leading-loose">I'm Charles, A Frontend Engineer with over four years
@@ -43,27 +46,31 @@ const About = () => {
                     </div>
                     <Image src={Charles}
                         alt="Logo"
-                        width={350}
+                        // width={350}
                         className="max-md:w-full mb-24"
                     ></Image>
                 </section>
-                <section className="flex flex-col my-24 px-16 max-md:px-0 max-sm:mx-6 px-0">
+                <section className="flex flex-col my-24 px-16 max-md:px-8  px-0">
                     <p className="text-red-500 font-bold text-5xl max-md:text-4xl max-sm:text-3xl">Skills & Tools.</p>
-                    <p className="mt-8 text-xl leading-relaxed w-3/4 max-md:w-full text-lg max-sm:text-base leading-loose">Across my four year career as a Frontend Engineer, working on
+                    <div className="w-4/6 max-md:w-full">
+                    <p className="mt-8 text-xl leading-relaxed max-md:text-lg w-full max-sm:text-base leading-loose">Across my four year career as a Frontend Engineer, working on
                         different products across different sectors, here are tools I've used to get work done and very conformtable working with;</p>
-                    <p className="text-dark-200 mt-8 text-xl leading-relaxed font-extrabold w-2/4 max-md:w-full max-sm:text-base leading-loose">HTML5, CSS, SCSS, Bootstrap, Tailwind Javascript, Typescript,
+                    <p className="text-dark-200 mt-8 text-xl leading-relaxed font-extrabold w-2/4 max-md:text-lg w-full max-sm:text-base leading-loose">HTML5, CSS, SCSS, Bootstrap, Tailwind Javascript, Typescript,
                         React, Vue, Next, Nuxt, Jest, Git, Postman</p>
+                    </div>
                 </section>
 
-                <section className="flex flex-col my-52 px-16 max-md:px-0 max-sm:mx-6 px-0">
+                <section className="flex flex-col my-52 px-16 max-md:px-8 px-0">
                     <p className="text-red-500 font-bold text-5xl max-md:text-4xl max-sm:text-3xl">When I'm Not Writing Code?</p>
-                    <p className="mt-8 text-xl leading-relaxed w-3/4 max-md:w-full text-lg max-sm:text-base leading-loose">When I'm not at work or writing code, I listen to a lot of music; notthing specific,
+                    <div className="w-4/6 max-md:w-full">
+                    <p className="mt-8 text-xl leading-relaxed w-3/4 max-md:text-lg w-full max-sm:text-base leading-loose">When I'm not at work or writing code, I listen to a lot of music; notthing specific,
                         ranging across multiple genres. Pusha T this minute, Estelle the next, nothing limited. <br></br><br></br>
 
                         I watch a lot of football, I'm a Manchester United fan with keen interest in clubs like
                         Tottenham Hotspur and Inter Milan.<br></br><br></br>
 
                         I'm very big on podcasts, here a selected few of them I listen to; </p>
+                    </div>
                     <div className="flex justify-between flex-wrap my-16 max-md:justify-center">
                         <Image src={Essential}
                             alt="234 Essential Podcast"

@@ -1,10 +1,10 @@
 import Button from "./button"
 const ExploreCards = (props:any) => {
-    const className = props.className
-    const btnStyle = props.btnStyle
-    const contentHeader = props.contentHeader
-    const contentBody = props.contentBody
-    const btnContent = props.btnContent
+    const className:string = props.className
+    const btnStyle:string = props.btnStyle
+    const contentHeader:string = props.contentHeader
+    const contentBody:string = props.contentBody
+    const btnContent:string = props.btnContent
     return (
         <div className="flex justify-center flex-col mb-11">
             <div className={className}>
