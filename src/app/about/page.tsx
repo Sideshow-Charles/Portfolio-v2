@@ -13,7 +13,7 @@ import TheDaily from "../../../assets/images/thedaily.jpeg";
 import ZeroConditions from "../../../assets/images/zeroconditions.jpeg";
 import GabandJuls from "../../../assets/images/GabandJuls.jpeg";
 
-const podcasts = [{src: '../../../assets/images/234Essential.webp'}];
+// const podcasts = [{src: '../../../assets/images/234Essential.webp'}];
 // podcasts.forEach
 
 const About = () => {
@@ -40,14 +40,14 @@ const About = () => {
                         <p className=" mt-8 text-xl text-dark leading-relaxed max-md:text-lg max-sm:text-base leading-loose">My Software Engineering journey is a very surprising one. In 2017,
                             I wanted to be a <span className="italic font-extrabold text-dark-200">Network Engineer</span>. I had a four month <span className="italic font-extrabold text-dark-200">Industrial Training </span>
                             where I was meant to be trained as a <span className="italic font-extrabold text-dark-200">Network Engineer</span>,
-                            the <span className="italic font-extrabold text-dark-200">Network Engineers</span> where never available because it was a busy period for them, which made me spend the four months getting trained
-                            in <span className="italic font-extrabold text-dark-200">System Adminstration.</span> <br></br> <br></br> During that period, I spent a lot of time around the software engineers and became very very curious
+                            the <span className="italic font-extrabold text-dark-200">Network Engineers</span> were never available because it was a busy period for them, which made me spend the four months getting trained
+                            in <span className="italic font-extrabold text-dark-200">System Adminstration.</span> <br></br> <br></br> During that period, I spent a lot of time around the software engineers and became really curious
                             and interested in what they did, which had me trying a lot of things.</p>
                     </div>
                     <Image src={Charles}
                         alt="Logo"
                         // width={350}
-                        className="max-md:w-full mb-24"
+                        className="max-md:w-3/6 mb-24 max-sm:w-full"
                     ></Image>
                 </section>
                 <section className="flex flex-col my-24 px-16 max-md:px-8  px-0">
@@ -71,50 +71,50 @@ const About = () => {
 
                         I'm very big on podcasts, here a selected few of them I listen to; </p>
                     </div>
-                    <div className="flex justify-between flex-wrap my-16 max-md:justify-center">
+                    <div className="flex flex-wrap my-16 max-md:justify-center">
                         <Image src={Essential}
                             alt="234 Essential Podcast"
-                            width={330}
+                            width={300}
                             className="mb-16 rounded-md"
                         ></Image>
                         <Image src={HappyHour}
                             alt="Frontend Happy Hour Podcast"
-                            width={330}
+                            width={300}
                             className="mb-16 rounded-md"
                         ></Image>
                         <Image src={LooseTalk}
-                            alt="Logo"
-                            width={330}
+                            alt="LooseTalk Podcast"
+                            width={300}
                             className="mb-16 rounded-md"
                         ></Image>
                         <Image src={Miccheque}
-                            alt="Logo"
-                            width={330}
+                            alt="Mic Cheque Podcast"
+                            width={300}
                             className="mb-16 rounded-md"
                         ></Image>
                         <Image src={SincerelyAccra}
-                            alt="Logo"
-                            width={330}
+                            alt="Sincerely Accra Podcast"
+                            width={300}
                             className="mb-16 rounded-md"
                         ></Image>
                         <Image src={TheDaily}
-                            alt="Logo"
-                            width={330}
+                            alt="The Daily Podcast"
+                            width={300}
                             className="mb-16 rounded-md"
                         ></Image>
                         <Image src={ZeroConditions}
-                            alt="Logo"
-                            width={330}
+                            alt="Zero Conditions Podcast"
+                            width={300}
                             className="mb-16 rounded-md"
                         ></Image>
                         <Image src={Sobering}
-                            alt="Logo"
-                            width={330}
+                            alt="Sobering Podcast"
+                            width={300}
                             className="mb-16 rounded-md"
                         ></Image>
                         <Image src={GabandJuls}
-                            alt="Logo"
-                            width={330}
+                            alt="Gab and Juls Podcast"
+                            width={300}
                             className="mb-16 rounded-md max-md:mb-0"
                         ></Image>
                     </div>
