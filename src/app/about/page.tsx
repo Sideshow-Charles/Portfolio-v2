@@ -71,7 +71,7 @@ const About = () => {
 
                         I'm very big on podcasts, here a selected few of them I listen to; </p>
                     </div>
-                    <div className="flex flex-wrap my-16 max-md:justify-center">
+                    <div className="flex justify-between flex-wrap my-16 max-md:justify-center">
                         <Image src={Essential}
                             alt="234 Essential Podcast"
                             width={300}
