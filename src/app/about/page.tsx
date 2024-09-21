@@ -51,70 +51,70 @@ const About = () => {
                 <section className="flex flex-col my-24 px-16 max-md:px-8  px-0">
                     <p className="text-red-500 font-bold text-5xl max-md:text-4xl max-sm:text-3xl">Skills & Tools.</p>
                     <div className="w-4/6 max-md:w-full">
-                    <p className="mt-8 text-xl leading-relaxed max-md:text-lg w-full max-sm:text-base leading-loose">Across my four year career as a Frontend Engineer, working on
-                        different products across different sectors, here are tools I've used to get work done and very conformtable working with;</p>
-                    <p className="text-dark-200 mt-8 text-xl leading-relaxed font-extrabold w-2/4 max-md:text-lg w-full max-sm:text-base leading-loose">HTML5, CSS, SCSS, Bootstrap, Tailwind Javascript, Typescript,
-                        React, Vue, Next, Nuxt, Jest, Git, Postman</p>
+                        <p className="mt-8 text-xl leading-relaxed max-md:text-lg w-full max-sm:text-base leading-loose">Across my four year career as a Frontend Engineer, working on
+                            different products across different sectors, here are tools I've used to get work done and very conformtable working with;</p>
+                        <p className="text-dark-200 mt-8 text-xl leading-relaxed font-extrabold w-2/4 max-md:text-lg w-full max-sm:text-base leading-loose">HTML5, CSS, SCSS, Bootstrap, Tailwind Javascript, Typescript,
+                            React, Vue, Next, Nuxt, Jest, Git, Postman</p>
                     </div>
                 </section>
 
                 <section className="flex flex-col my-52 px-16 max-md:px-8 px-0">
                     <p className="text-red-500 font-bold text-5xl max-md:text-4xl max-sm:text-3xl">When I'm Not Writing Code?</p>
                     <div className="w-4/6 max-md:w-full">
-                    <p className="mt-8 text-xl leading-relaxed w-3/4 max-md:text-lg w-full max-sm:text-base leading-loose">When I'm not at work or writing code, I listen to a lot of music; notthing specific,
-                        ranging across multiple genres. Pusha T this minute, Estelle the next, nothing limited. <br></br><br></br>
+                        <p className="mt-8 text-xl leading-relaxed w-3/4 max-md:text-lg w-full max-sm:text-base leading-loose">When I'm not at work or writing code, I listen to a lot of music; notthing specific,
+                            ranging across multiple genres. Pusha T this minute, Estelle the next, nothing limited. <br></br><br></br>
 
-                        I watch a lot of football, I'm a Manchester United fan with keen interest in clubs like
-                        Tottenham Hotspur and Inter Milan.<br></br><br></br>
+                            I watch a lot of football, I'm a Manchester United fan with keen interest in clubs like
+                            Tottenham Hotspur and Inter Milan.<br></br><br></br>
 
-                        I'm very big on podcasts, here a selected few of them I listen to; </p>
+                            I'm very big on podcasts, here a selected few of them I listen to; </p>
                     </div>
                     <div className="flex justify-between flex-wrap my-16 max-md:justify-center">
-                        <Image src={Essential}
+                        <a target="_blank" href="https://open.spotify.com/show/5V8IeydCBDLwUc3E9kluiC?si=c75a946d929f4ad9"><Image src={Essential}
                             alt="234 Essential Podcast"
                             width={300}
                             className="mb-16 rounded-md"
-                        ></Image>
-                        <Image src={HappyHour}
+                        ></Image></a>
+                        <a target="_blank" href="https://open.spotify.com/show/0Giuw6eNbTzP9CDZODDrA2?si=fac38bb81fa744be"><Image src={HappyHour}
                             alt="Frontend Happy Hour Podcast"
                             width={300}
                             className="mb-16 rounded-md"
-                        ></Image>
-                        <Image src={LooseTalk}
+                        ></Image></a>
+                        <a target="_blank" href="https://open.spotify.com/show/0VbJJTihIQ7OFrC2vA5Aej?si=5233e7afade144c5"><Image src={LooseTalk}
                             alt="LooseTalk Podcast"
                             width={300}
                             className="mb-16 rounded-md"
-                        ></Image>
-                        <Image src={Miccheque}
+                        ></Image></a>
+                        <a target ="_blank" href="https://open.spotify.com/show/3JI1oNMx00PeIIxJfbz4ux?si=2445232ca9b849b7"><Image src={Miccheque}
                             alt="Mic Cheque Podcast"
                             width={300}
                             className="mb-16 rounded-md"
-                        ></Image>
-                        <Image src={SincerelyAccra}
+                        ></Image></a>
+                        <a target="_blank" href="https://open.spotify.com/show/0YrGiZbIFLuUjhEOlLKPxh?si=97f8bf3cc5744c8b"><Image src={SincerelyAccra}
                             alt="Sincerely Accra Podcast"
                             width={300}
                             className="mb-16 rounded-md"
-                        ></Image>
-                        <Image src={TheDaily}
+                        ></Image></a>
+                        <a target="_blank" href="https://open.spotify.com/show/3IM0lmZxpFAY7CwMuv9H4g?si=e3ee27bef0cc4fb6"><Image src={TheDaily}
                             alt="The Daily Podcast"
                             width={300}
                             className="mb-16 rounded-md"
-                        ></Image>
-                        <Image src={ZeroConditions}
+                        ></Image></a>
+                        <a target="_blank" href="https://open.spotify.com/show/2vHU0PPLc07S03lK9mHG0e?si=a0a038a276cf4b7f"><Image src={ZeroConditions}
                             alt="Zero Conditions Podcast"
                             width={300}
                             className="mb-16 rounded-md"
-                        ></Image>
-                        <Image src={Sobering}
+                        ></Image></a>
+                        <a target="_blank" href="https://open.spotify.com/show/1t6XNlxeQ1vFk4dVw1hJNu?si=66d8b4e4e8684185"><Image src={Sobering}
                             alt="Sobering Podcast"
                             width={300}
                             className="mb-16 rounded-md"
-                        ></Image>
-                        <Image src={GabandJuls}
+                        ></Image></a>
+                        <a target="_blank" href="https://open.spotify.com/show/3QaGBvwVZ21OgzmZkN8B9N?si=0478e820bd6740ae"><Image src={GabandJuls}
                             alt="Gab and Juls Podcast"
                             width={300}
                             className="mb-16 rounded-md max-md:mb-0"
-                        ></Image>
+                        ></Image></a>
                     </div>
                 </section>
             </div>
