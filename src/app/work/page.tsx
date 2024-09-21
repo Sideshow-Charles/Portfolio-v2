@@ -14,7 +14,6 @@ const Works = () => {
                     <p className="font-bold text-7xl leading-tight text-violet-500 max-md:text-5xl leading-loose max-sm:text-4xl">
                         Work History & <br></br> Career Overview.
                     </p>
-                    {/* <p className="mt-12 text-xl text-violet-500 font-bold max-md:text-lg max-sm:text-base">(2017 - Present)</p> */}
                 </section>
                 {/* End of Hero Section */}
 

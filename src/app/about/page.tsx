@@ -13,8 +13,6 @@ import TheDaily from "../../../assets/images/thedaily.jpeg";
 import ZeroConditions from "../../../assets/images/zeroconditions.jpeg";
 import GabandJuls from "../../../assets/images/GabandJuls.jpeg";
 
-// const podcasts = [{src: '../../../assets/images/234Essential.webp'}];
-// podcasts.forEach
 
 const About = () => {
     return (
