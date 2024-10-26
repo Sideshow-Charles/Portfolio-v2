@@ -36,7 +36,7 @@ const Home = () => {
           interfaces while implementing and maintaining functionality. My
           expertise lies in HTML5, CSS3, Javascript (ES5, ES6) as foundation tools, and
           various frontend frameworks such as Vue, Nuxt, React,
-          Next, SCSS, Tailwind, Tyescript etc. I am proficient in writing clean,
+          Next, SCSS, Tailwind, Typescript etc. I am proficient in writing clean,
           maintainable code with a keen eye for design and user experience,
           ensuring that every pixel is perfectly in place.
         </p>
