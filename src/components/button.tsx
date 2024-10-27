@@ -1,10 +1,18 @@
-const Button = (props: any) => {
-    const content:string = props.content
-    const className:string = props.className
+import React from 'react';
+
+interface ButtonProps {
+    content: string;
+    className?: string; // Optional prop for className
+}
+
+const Button: React.FC<ButtonProps> = (props) => {
+    const { content, className } = props;
+
     return (
         <button className={className}>
             {content}
         </button>
-    )
-}
+    );
+};
+
 export default Button;

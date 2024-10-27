@@ -1,22 +1,30 @@
+import React from "react";
 import Header from "@/components/header";
 import rendezvous from "../../../assets/images/rendezvous.png";
 import kolawole from "../../../assets/images/kolawole.png";
-import rickandmorty from "../../../assets/images/RickandMorty.png"
+import rickandmorty from "../../../assets/images/RickandMorty.png";
 import Footer from "@/components/footer";
 import Link from "next/link";
 import Button from "@/components/button";
 import Image from "next/image";
-const Projects = () => {
+
+const Projects: React.FC = () => {
     return (
         <div>
             {/* Header Component */}
-            <Header btnclassName="bg-orange-500 text-white py-2 px-4 border border-orange-500 rounded-md mx-2 hover:-translate-y-1 hover:scale-105 hover:bg-orange-700 duration-200"></Header>
+            <Header 
+                btnclassName="bg-orange-500 text-white py-2 px-4 border border-orange-500 rounded-md mx-2 hover:-translate-y-1 hover:scale-105 hover:bg-orange-700 duration-200"
+            />
             {/* End of Header Component */}
 
             {/* Hero Section */}
-            <section className=" mt-36 mx-24 text-center max-md:mx-12 max-sm:mx-6">
-                <p className="font-bold text-7xl leading-tight text-orange-500 max-md:text-5xl max-sm:text-4xl">Selected Projects.</p>
-                <p className="mt-8 text-xl w-3/6 mx-auto max-md:text-lg w-full max-sm:text-base">Take a look at a few projects I've worked on, to see how I bring concepts to life, prioritize user experience.</p>
+            <section className="mt-36 mx-24 text-center max-md:mx-12 max-sm:mx-6">
+                <p className="font-bold text-7xl leading-tight text-orange-500 max-md:text-5xl max-sm:text-4xl">
+                    Selected Projects.
+                </p>
+                <p className="mt-8 text-xl w-3/6 mx-auto max-md:text-lg w-full max-sm:text-base">
+                    Take a look at a few projects I have worked on, to see how I bring concepts to life and prioritize user experience.
+                </p>
             </section>
             {/* End of Hero Section */}
 
@@ -24,15 +32,33 @@ const Projects = () => {
             <div className="flex justify-around items-center my-36 mx-16 max-md:flex-col my-16 mx-6">
                 <div className="w-8/12 max-md:w-full">
                     <Link target="_blank" href="https://rendezvous-black.vercel.app">
-                        <Image src={rendezvous} alt="Project Image" className="hover:scale-105 transition duration-300 ease-in-out rounded-lg h-full" />
+                        <Image 
+                            src={rendezvous} 
+                            alt="Rendezvous Project Image" 
+                            className="hover:scale-105 transition duration-300 ease-in-out rounded-lg h-full" 
+                        />
                     </Link>
                 </div>
                 <div className="w-3/12 max-md:w-full text-left my-12">
-                    <p className="font-bold text-orange-500 text-3xl mb-2">Rendezvous</p>
-                    <p className="text-xxxl leading-relaxed my-4">Rendezvous is a merchant view of an event manangement system.</p>
+                    <p className="font-bold text-orange-500 text-3xl mb-2">
+                        Rendezvous
+                    </p>
+                    <p className="text-xxxl leading-relaxed my-4">
+                        Rendezvous is a merchant view of an event management system.
+                    </p>
                     <div className="flex">
-                    <Link target="_blank" href="https://rendezvous-black.vercel.app"><Button content="View Live" className="bg-orange-500 text-white py-2 px-4 border border-orange-100 rounded-md transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 hover:bg-orange-600 duration-200 mr-4"></Button></Link>
-                    <Link target="_blank" href="https://github.com/Sideshow-Charles/Rendezvous"><Button content="View On Github" className="bg-orange-500 text-white py-2 px-4 border border-orange-100 rounded-md transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 hover:bg-orange-600 duration-200"></Button></Link>
+                        <Link target="_blank" href="https://rendezvous-black.vercel.app">
+                            <Button 
+                                content="View Live" 
+                                className="bg-orange-500 text-white py-2 px-4 border border-orange-100 rounded-md transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 hover:bg-orange-600 duration-200 mr-4" 
+                            />
+                        </Link>
+                        <Link target="_blank" href="https://github.com/Sideshow-Charles/Rendezvous">
+                            <Button 
+                                content="View On Github" 
+                                className="bg-orange-500 text-white py-2 px-4 border border-orange-100 rounded-md transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 hover:bg-orange-600 duration-200" 
+                            />
+                        </Link>
                     </div>
                 </div>
             </div>
@@ -40,34 +66,77 @@ const Projects = () => {
             <div className="flex justify-around items-center flex-row-reverse my-36 mx-16 max-md:flex-col mx-6">
                 <div className="w-8/12 max-md:w-full">
                     <Link target="_blank" href="https://kola-beige.vercel.app">
-                        <Image src={kolawole} alt="Project Image" className="hover:scale-105 transition duration-300 ease-in-out rounded-lg h-full" />
+                        <Image 
+                            src={kolawole} 
+                            alt="Kolawole's Portfolio Project Image" 
+                            className="hover:scale-105 transition duration-300 ease-in-out rounded-lg h-full" 
+                        />
                     </Link>
                 </div>
                 <div className="w-3/12 max-md:w-full my-12">
-                    <p className="font-bold text-orange-500 text-3xl mb-2">Kolawole's Portfolio</p>
-                    <p className="text-xxxl leading-relaxed my-4">Online portfolio for Kolawole Popoola, A digital product designer.</p>
-                    <Link target="_blank" href="https://kola-beige.vercel.app"><Button content="View Live" className="bg-orange-500 text-white py-2 px-4 border border-orange-100 rounded-md transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 hover:bg-orange-600 duration-200 mr-4"></Button></Link>
-                    <Link target="_blank" href="https://kola-beige.vercel.app"><Button content="View On Github" className="bg-orange-500 text-white py-2 px-4 border border-orange-100 rounded-md transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 hover:bg-orange-600 duration-200"></Button></Link>
+                    <p className="font-bold text-orange-500 text-3xl mb-2">
+                        Kolawole's Portfolio
+                    </p>
+                    <p className="text-xxxl leading-relaxed my-4">
+                        Online portfolio for Kolawole Popoola, a digital product designer.
+                    </p>
+                    <div className="flex">
+                        <Link target="_blank" href="https://kola-beige.vercel.app">
+                            <Button 
+                                content="View Live" 
+                                className="bg-orange-500 text-white py-2 px-4 border border-orange-100 rounded-md transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 hover:bg-orange-600 duration-200 mr-4" 
+                            />
+                        </Link>
+                        <Link target="_blank" href="https://github.com/Sideshow-Charles/Rendezvous">
+                            <Button 
+                                content="View On Github" 
+                                className="bg-orange-500 text-white py-2 px-4 border border-orange-100 rounded-md transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 hover:bg-orange-600 duration-200" 
+                            />
+                        </Link>
+                    </div>
                 </div>
             </div>
 
             <div className="flex justify-around items-center my-36 mx-16 max-md:flex-col mx-6">
                 <div className="w-8/12 max-md:w-full">
                     <Link target="_blank" href="https://rick-and-morty-six-gamma.vercel.app">
-                        <Image src={rickandmorty} alt="Project Image" className="hover:scale-105 transition duration-300 ease-in-out rounded-lg h-full" />
+                        <Image 
+                            src={rickandmorty} 
+                            alt="Rick and Morty Info Project Image" 
+                            className="hover:scale-105 transition duration-300 ease-in-out rounded-lg h-full" 
+                        />
                     </Link>
                 </div>
                 <div className="w-3/12 max-md:w-full text-left my-12">
-                    <p className="font-bold text-orange-500 text-3xl mb-2">Rick and Morty info</p>
-                    <p className="text-xxxl leading-relaxed my-4">Locations, Characters and Episodes of popular TV show, Rick and Morty.</p>
-                    <Link target="_blank" href="https://rick-and-morty-six-gamma.vercel.app"><Button content="View Live" className="bg-orange-500 text-white py-2 px-4 border border-orange-100 rounded-md transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 hover:bg-orange-600 duration-200 mr-4"></Button></Link>
-                    <Link target="_blank" href="https://github.com/Sideshow-Charles/rick-and-morty"><Button content="View On Github" className="bg-orange-500 text-white py-2 px-4 border border-orange-100 rounded-md transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 hover:bg-orange-600 duration-200"></Button></Link>
+                    <p className="font-bold text-orange-500 text-3xl mb-2">
+                        Rick and Morty Info
+                    </p>
+                    <p className="text-xxxl leading-relaxed my-4">
+                        Locations, Characters and Episodes of popular TV show, Rick and Morty.
+                    </p>
+                    <div className="flex">
+                        <Link target="_blank" href="https://rick-and-morty-six-gamma.vercel.app">
+                            <Button 
+                                content="View Live" 
+                                className="bg-orange-500 text-white py-2 px-4 border border-orange-100 rounded-md transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 hover:bg-orange-600 duration-200 mr-4" 
+                            />
+                        </Link>
+                        <Link target="_blank" href="https://github.com/Sideshow-Charles/rick-and-morty">
+                            <Button 
+                                content="View On Github" 
+                                className="bg-orange-500 text-white py-2 px-4 border border-orange-100 rounded-md transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 hover:bg-orange-600 duration-200" 
+                            />
+                        </Link>
+                    </div>
                 </div>
             </div>
             {/* End of Project Section */}
 
-            <Footer></Footer>
+            {/* Footer Component */}
+            <Footer />
+            {/* End of Footer Component */}
         </div>
-    )
-}
+    );
+};
+
 export default Projects;

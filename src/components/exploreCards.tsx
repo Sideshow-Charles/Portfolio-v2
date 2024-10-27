@@ -1,22 +1,35 @@
-import Button from "./button"
-const ExploreCards = (props:any) => {
-    const className:string = props.className
-    const btnStyle:string = props.btnStyle
-    const contentHeader:string = props.contentHeader
-    const contentBody:string = props.contentBody
-    const btnContent:string = props.btnContent
+import Button from "./button";
+
+interface ExploreCardsProps {
+    className: string;
+    btnStyle: string;
+    contentHeader: string;
+    contentBody: string;
+    btnContent: string;
+}
+
+const ExploreCards: React.FC<ExploreCardsProps> = ({
+    className,
+    btnStyle,
+    contentHeader,
+    contentBody,
+    btnContent,
+}) => {
     return (
         <div className="flex justify-center flex-col mb-11">
             <div className={className}>
                 <div className="px-2 py-4">
-                    <div className="font-bold mb-8 text-5xl leading-normal max-md:text-3xl">{contentHeader}</div>
+                    <div className="font-bold mb-8 text-5xl leading-normal max-md:text-3xl">
+                        {contentHeader}
+                    </div>
                     <p className="text-xl leading-relaxed max-md:text-lg leading-loose max-sm:text-base">
                         {contentBody}
                     </p>
-                    <Button content={btnContent} className={btnStyle}></Button>
+                    <Button content={btnContent} className={btnStyle} />
                 </div>
             </div>
         </div>
-    )
-}
+    );
+};
+
 export default ExploreCards;
