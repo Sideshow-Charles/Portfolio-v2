@@ -13,12 +13,17 @@ const Footer: React.FC = () => {
                 </div>
                 <div className="flex max-sm:mb-4">
                     <p className="leading-relaxed mr-4 max-md:text-lg leading-loose max-sm:text-base">
-                        <Link target="_blank" href="https://www.linkedin.com/in/charles-onuoha-37b6011a1">
+                        <Link
+                            target="_blank"
+                            href="https://www.linkedin.com/in/charles-onuoha-37b6011a1"
+                            className="relative hover:underline transition duration-300 after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-current after:transition-all after:duration-300 hover:after:w-full">
                             LinkedIn &#8599;
                         </Link>
                     </p>
                     <p className="leading-relaxed max-md:text-lg leading-loose max-sm:text-base">
-                        <Link target="_blank" href="https://github.com/Sideshow-Charles">
+                        <Link target="_blank"
+                            href="https://github.com/Sideshow-Charles"
+                            className="relative hover:underline transition duration-300 after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-current after:transition-all after:duration-300 hover:after:w-full">
                             Github &#8599;
                         </Link>
                     </p>
