@@ -16,15 +16,19 @@ const Footer: React.FC = () => {
                         <Link
                             target="_blank"
                             href="https://www.linkedin.com/in/charles-onuoha-37b6011a1"
-                            className="relative hover:underline transition duration-300 after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-current after:transition-all after:duration-300 hover:after:w-full">
-                            LinkedIn <span className="ml-1">&#8599;</span>
+                            className="relative hover:underline transition duration-300 after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-current after:transition-all after:duration-300">
+                            LinkedIn <span className="inline-block ml-[-0.2952vw] transform rotate-[-40deg] relative top-[-0.18em]">
+                        &#x2192;
+                    </span>
                         </Link>
                     </p>
                     <p className="leading-relaxed max-md:text-lg leading-loose max-sm:text-base">
                         <Link target="_blank"
                             href="https://github.com/Sideshow-Charles"
-                            className="relative hover:underline transition duration-300 after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-current after:transition-all after:duration-300 hover:after:w-full">
-                            Github <span className="ml-1">&#8599;</span>
+                            className="relative hover:underline transition duration-300 after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-current after:transition-all after:duration-300">
+                            Github <span className="inline-block ml-[-0.2952vw] transform rotate-[-40deg] relative top-[-0.18em]">
+                        &#x2192;
+                    </span>
                         </Link>
                     </p>
                 </div>

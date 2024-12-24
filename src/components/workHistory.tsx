@@ -27,9 +27,12 @@ const WorkHistory: React.FC<WorkHistoryProps> = (props) => {
                 <Link
                     target="_blank"
                     href={companyLink}
-                    className="font-bold text-violet-500 text-5xl cursor-pointer max-md:text-4xl relative hover:underline transition duration-300 after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-current after:transition-all after:duration-300 hover:after:w-100"
-                >
-                    {companyName}<span className="ml-1">&#8599;</span>
+                    className="font-bold text-violet-500 text-5xl cursor-pointer max-md:text-4xl relative hover:underline transition duration-300 after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-current after:transition-all after:duration-300">
+                    {companyName}
+                    <span className="inline-block ml-[-0.2952vw] transform rotate-[-40deg] relative top-[-0.18em]">
+                        &#x2192;
+                    </span>
+
                 </Link>
                 <p className="mt-8 text-xl text-dark max-md:text-lg max-sm:text-base">
                     ({duration})
