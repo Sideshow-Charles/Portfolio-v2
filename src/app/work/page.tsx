@@ -23,6 +23,7 @@ const Works: React.FC = () => {
 
         {/* Work History Section */}
         <WorkHistory
+        companyLink="https://flutterwave.com"
           companyName="Flutterwave"
           duration="2021 - Present"
           jobTitle="Frontend Engineer (Engineer I, Engineer II)"
@@ -44,6 +45,7 @@ const Works: React.FC = () => {
         />
 
         <WorkHistory
+        companyLink="https://www.instiq.com"
           companyName="Instiq"
           duration="August 2020 - November 2020"
           jobTitle="Junior Frontend Engineer"
@@ -56,6 +58,7 @@ const Works: React.FC = () => {
         />
 
         <WorkHistory
+        companyLink="http://lopworks.com"
           companyName="Lopworks"
           duration="May 2017 - August 2017"
           jobTitle="System Administration Intern"
