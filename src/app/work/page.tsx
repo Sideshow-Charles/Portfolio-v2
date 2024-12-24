@@ -29,9 +29,9 @@ const Works: React.FC = () => {
           jobTitle="Frontend Engineer (Engineer I, Engineer II)"
           roleDescription="In March 2021, I joined Flutterwave (An African fintech company that provides a payment 
             infrastructure for global merchants and payment service providers across the world). I joined the white-label
-            team, 1/2 engineers. The white-label product is to support businesses with financial tools to reach their goals,
-            this was to be achieved based on existing Flutterwave products, like the dashboard and checkout tailored to the
-            view and feel of our merchants.
+            team, one of two engineers. The white-label product is to support businesses with financial tools to reach their goals,
+            this was to be achieved based on existing Flutterwave products, like the dashboard and checkout, customised to the
+            branding requests of our merchants.
             I also worked as a sole engineer in building email templates across different products, marketing and brand, overseeing
             implementations of these emails. 
             In 2022, I stopped working on email templates creation and implementation to focus fully on scaling the white-label 
