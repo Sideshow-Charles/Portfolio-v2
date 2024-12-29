@@ -61,7 +61,7 @@ const About: React.FC = () => {
                     </div>
                 </section>
 
-                <section className="flex flex-col my-52 px-16 max-md:px-8">
+                <section className="flex flex-col mt-52 px-16 max-md:px-8">
                     <p className="text-red-500 font-bold text-5xl max-md:text-4xl max-sm:text-3xl">When I'm Not Writing Code?</p>
                     <div className="w-4/6 max-md:w-full">
                         <p className="mt-8 text-xl leading-relaxed w-3/4 max-md:text-lg w-full max-sm:text-base leading-loose">When I'm not at work or writing code, I listen to a lot of music; notthing specific,
@@ -103,8 +103,12 @@ const About: React.FC = () => {
                         </a>
                     </div>
                 </section>
-            </div>
 
+                <div className="text-right">
+                    <p className="text-xl text-zinc-700 max-md:text-lg max-sm:text-base">Next</p>
+                    <Link href="/work"><p className="font-black mt-2 mb-16 text-3xl text-red-500 max-md:text-2xl">WORK <span className="inline-block ml-[-0.2952vw] transform rotate-[-40deg] relative top-[-0.18em]">&#x2192;</span></p></Link>
+                </div>
+            </div>
             {/* Footer */}
             <Footer />
         </div>
