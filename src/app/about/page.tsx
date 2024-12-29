@@ -103,10 +103,15 @@ const About: React.FC = () => {
                         </a>
                     </div>
                 </section>
-
-                <div className="text-right">
-                    <p className="text-xl text-zinc-700 max-md:text-lg max-sm:text-base">Next</p>
-                    <Link href="/work"><p className="font-black mt-2 mb-16 text-3xl text-red-500 max-md:text-2xl">WORK <span className="inline-block ml-[-0.2952vw] transform rotate-[-40deg] relative top-[-0.18em]">&#x2192;</span></p></Link>
+                <div className="flex w-full pr-4">
+                    <div className="ml-auto flex flex-col items-end">
+                        <p className="text-xl text-zinc-700 mr-10 max-md:text-lg max-sm:text-base">Next</p>
+                        <Link href="/work">
+                            <p className="font-black mt-2 mb-16 text-3xl text-red-500 max-md:text-2xl">
+                                WORK <span className="inline-block transform rotate-[-40deg] relative top-[-0.18em]">&#x2192;</span>
+                            </p>
+                        </Link>
+                    </div>
                 </div>
             </div>
             {/* Footer */}
