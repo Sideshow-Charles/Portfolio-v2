@@ -14,10 +14,12 @@ const Home: React.FC = () => {
       {/* End of Header Component */}
 
       <section className="flex justify-center flex-col items-center mt-36">
-        <p className="text-center font-bold text-7xl leading-tight max-md:text-5xl max-sm:text-4xl">
-          Charles Onuoha,<br /> Software Engineer(Frontend).
-        </p>
-        <p className="text-center mt-8 text-xl max-md:text-lg">Based in Lagos, Nigeria</p>
+        <div className="animate-fadeIn duration-1000 delay-1000 ease-in">
+          <p className="text-center font-bold text-7xl leading-tight max-md:text-5xl max-sm:text-4xl">
+            Charles Onuoha,<br /> Software Engineer(Frontend).
+          </p>
+          <p className="text-center mt-8 text-xl max-md:text-lg">Based in Lagos, Nigeria</p>
+        
 
         {/* CTA Button */}
         <div className="flex justify-center mt-7">
@@ -27,6 +29,7 @@ const Home: React.FC = () => {
               className="bg-slate-950 text-white py-2 px-4 border border-slate-950 rounded-md mx-2 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 hover:bg-dark duration-200"
             />
           </Link>
+        </div>
         </div>
         {/* End of CTA Button */}
       </section>
