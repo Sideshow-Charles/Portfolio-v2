@@ -135,7 +135,7 @@ const Projects: React.FC = () => {
             {/* End of Project Section */}
             <div className="flex w-full pl-4">
                 <div className="mr-auto flex flex-col items-start">
-                    <p className="text-lg text-zinc-700 ml-10 max-md:text-lg max-sm:text-base">Previous</p>
+                    <p className="text-lg text-zinc-700 ml-6 max-md:text-lg max-sm:text-base">Previous</p>
                     <Link href="/work">
                         <p className="font-black mt-2 mb-16 text-3xl text-orange-500 max-md:text-2xl"><span className="inline-block ml-[-0.6952vw] transform rotate-[-140deg] relative top-[-0em]">&#x2192;</span>
                             WORK
