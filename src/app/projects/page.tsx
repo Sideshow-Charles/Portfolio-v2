@@ -137,7 +137,7 @@ const Projects: React.FC = () => {
                 <div className="mr-auto flex flex-col items-start">
                     <p className="text-lg text-zinc-700 ml-10 max-md:text-lg max-sm:text-base">Previous</p>
                     <Link href="/work">
-                        <p className="font-black mt-2 mb-16 text-3xl text-orange-500 max-md:text-2xl"><span className="inline-block ml-[-0.6952vw] transform rotate-[-140deg] relative top-[-0em] ">&#x2192;</span>
+                        <p className="font-black mt-2 mb-16 text-3xl text-orange-500 max-md:text-2xl"><span className="inline-block ml-[-0.6952vw] transform rotate-[-140deg] relative top-[-0em]">&#x2192;</span>
                             WORK
                         </p>
                     </Link>
