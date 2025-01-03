@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../../components/header";
 import Footer from "@/components/footer";
 import WorkHistory from "@/components/workHistory";
+import Link from "next/link";
 
 const Works: React.FC = () => {
   return (
@@ -14,7 +15,7 @@ const Works: React.FC = () => {
 
       <div className="max-w-7xl mx-auto">
         {/* Hero Section */}
-        <section className="text-center my-52 max-md:mx-12 max-sm:mx-6">
+        <section className="animate-fadeIn duration-1000 delay-1000 ease-in text-center my-52 max-md:mx-12 max-sm:mx-6">
           <p className="font-bold text-7xl leading-tight text-violet-500 max-md:text-5xl leading-loose max-sm:text-4xl">
             Work History & <br /> Career Overview.
           </p>
@@ -31,7 +32,7 @@ const Works: React.FC = () => {
             infrastructure for global merchants and payment service providers across the world). I joined the white-label
             team, one of two engineers. The white-label product is to support businesses with financial tools to reach their goals,
             this was to be achieved based on existing Flutterwave products, like the dashboard and checkout, customised to the
-            branding requests of our merchants.
+            branding requests of the merchants.
             I also worked as a sole engineer in building email templates across different products, marketing and brand, overseeing
             implementations of these emails. 
             In 2022, I stopped working on email templates creation and implementation to focus fully on scaling the white-label 
@@ -68,6 +69,18 @@ const Works: React.FC = () => {
           technologies="VMware, CentOS"
         />
         {/* End of Work History Section */}
+
+        <div className="flex justify-between items-center">
+          <div className="text-left">
+            <p className="text-xl  text-zinc-700 max-md:text-lg max-sm:text-base">Previous</p>
+            <Link href="/about"><p className="font-black mt-2 mb-16 text-3xl text-violet-500 max-md:text-2xl"><span className="inline-block ml-[-0.6952vw] transform rotate-[-140deg] relative top-[-0em] ">&#x2192;</span>ABOUT</p></Link>
+          </div>
+
+        <div className="text-right">
+          <p className="text-xl text-zinc-700 max-md:text-lg max-sm:text-base">Next</p>
+          <Link href="/projects"><p className="font-black mt-2 mb-16 text-3xl text-violet-500 max-md:text-2xl">PROJECTS <span className="inline-block ml-[-0.2952vw] transform rotate-[-40deg] relative top-[-0.18em]">&#x2192;</span></p></Link>
+        </div>
+      </div>
       </div>
 
       {/* Footer Component */}
