@@ -70,23 +70,23 @@ const Works: React.FC = () => {
         />
         {/* End of Work History Section */}
 
-        <div className="flex justify-between items-center">
+        <div className="flex justify-between items-center overflow-x-hidden">
           <div className="text-left">
-            <p className="text-xl ml-4 text-zinc-700 max-md:text-lg max-sm:text-base">Previous</p>
+            <p className="text-xl ml-6 text-zinc-700 max-md:text-lg max-sm:text-base">Previous</p>
             <Link href="/about">
               <p className="font-black mt-2 mb-16 text-3xl text-violet-500 max-md:text-2xl">
-                <span className="inline-block transform rotate-[180deg] relative top-[-0.1em] mr-2">&#x2192;</span>
+                <span className="inline-block ml-[-0.6952vw] transform rotate-[-140deg] relative top-[-0em] mr-1">&#x2192;</span>
                 ABOUT
               </p>
             </Link>
           </div>
 
           <div className="text-right">
-            <p className="text-xl mr-4 text-zinc-700 max-md:text-lg max-sm:text-base">Next</p>
+            <p className="text-xl mr-6 text-zinc-700 max-md:text-lg max-sm:text-base">Next</p>
             <Link href="/projects">
               <p className="font-black mt-2 mb-16 text-3xl text-violet-500 max-md:text-2xl">
                 PROJECTS
-                <span className="inline-block transform rotate-[-40deg] relative top-[-0.1em] ml-2">&#x2192;</span>
+                <span className="inline-block transform rotate-[-40deg] relative top-[-0.1em] ml-1">&#x2192;</span>
               </p>
             </Link>
           </div>
