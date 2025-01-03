@@ -22,7 +22,7 @@ const About: React.FC = () => {
             {/* End of Header Component */}
 
             <div className="max-w-7xl mx-auto">
-                <section className="flex justify-around items-start my-48 max-md:flex-col-reverse max-md:mx-6 max-sm:mx-6">
+                <section className="animate-fadeIn duration-1000 delay-1000 ease-in flex justify-around items-start my-48 max-md:flex-col-reverse max-md:mx-6 max-sm:mx-6">
                     <div className="w-3/6 max-md:w-full">
                         <p className="font-bold text-5xl text-red-500 max-md:text-4xl max-sm:text-3xl">Overview.</p>
                         <p className="mt-8 text-xl text-dark leading-relaxed max-md:text-lg max-sm:text-base leading-loose">
