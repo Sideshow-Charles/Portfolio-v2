@@ -64,7 +64,7 @@ const Home: React.FC = () => {
         <div className="flex justify-between items-center max-md:flex-col">
         <Link href="/work" passHref>
             <ExploreCards
-              className="rounded-2xl text-white bg-violet-500 py-16 px-4 mr-6 text-center max-md:ml-0"
+              className="rounded-2xl text-white bg-violet-500 py-16 px-4 mr-6 text-center max-md:mr-0"
               btnStyle="bg-white text-violet-500 py-4 px-8 rounded-lg mt-10 max-md:px-4 text-base"
               contentHeader="Work History"
               contentBody="Take a look at places I've worked, roles and teams I worked in, also daily tasks I performed."
@@ -74,7 +74,7 @@ const Home: React.FC = () => {
 
           <Link href="/projects" passHref>
             <ExploreCards
-              className="rounded-2xl text-white bg-orange-500 py-16 px-9 ml-6 text-center max-md:mr-0"
+              className="rounded-2xl text-white bg-orange-500 py-16 px-9 ml-6 text-center max-md:ml-0"
               btnStyle="bg-white text-orange-500 py-4 px-8 rounded-lg mt-10 max-md:px-4 text-base"
               contentHeader="Projects"
               contentBody="Take a look at projects I've worked on, from challenges I faced, to how I solved them."
