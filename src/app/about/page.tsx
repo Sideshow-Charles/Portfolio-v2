@@ -107,7 +107,7 @@ const About: React.FC = () => {
                     <div className="ml-auto flex flex-col items-end">
                         <p className="text-xl text-zinc-700 mr-10 max-md:text-lg max-sm:text-base">Next</p>
                         <Link href="/work">
-                            <p className="font-black mt-2 mb-16 text-3xl text-red-500 max-md:text-2xl">
+                            <p className="font-black mt-2 mb-16 text-3xl text-red-500 hover:underline transition duration-300 after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-current after:transition-all after:duration-300 max-md:text-2xl">
                                 WORK <span className="inline-block transform rotate-[-40deg] relative top-[-0.18em]">&#x2192;</span>
                             </p>
                         </Link>
