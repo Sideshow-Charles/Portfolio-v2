@@ -21,7 +21,7 @@ const Footer: React.FC = () => {
         <div>
           <p>&copy; Charles Onuoha, {year} All rights reserved.</p>
         </div>
-        <div className="flex max-sm:mb-4">
+        <div className="flex max-sm:mb-10">
           <p className="leading-relaxed mr-4 max-md:text-lg leading-loose max-sm:text-base">
             <Link
               target="_blank"
