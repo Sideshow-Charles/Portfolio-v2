@@ -54,12 +54,12 @@ const Projects: React.FC = () => {
                                 className="bg-orange-500 text-white py-2 px-4 border border-orange-100 rounded-md transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 hover:bg-orange-600 duration-200 mr-4" 
                             />
                         </Link>
-                        <Link target="_blank" href="https://github.com/Sideshow-Charles/Rendezvous">
+                        {/* <Link target="_blank" href="https://github.com/Sideshow-Charles/Rendezvous">
                             <Button 
                                 content="View On Github" 
                                 className="bg-orange-500 text-white py-2 px-4 border border-orange-100 rounded-md transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 hover:bg-orange-600 duration-200" 
                             />
-                        </Link>
+                        </Link> */}
                     </div>
                 </div>
             </div>
@@ -88,12 +88,12 @@ const Projects: React.FC = () => {
                                 className="bg-orange-500 text-white py-2 px-4 border border-orange-100 rounded-md transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 hover:bg-orange-600 duration-200 mr-4" 
                             />
                         </Link>
-                        <Link target="_blank" href="https://github.com/Sideshow-Charles/Rendezvous">
+                        {/* <Link target="_blank" href="https://github.com/Sideshow-Charles/Rendezvous">
                             <Button 
                                 content="View On Github" 
                                 className="bg-orange-500 text-white py-2 px-4 border border-orange-100 rounded-md transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 hover:bg-orange-600 duration-200" 
                             />
-                        </Link>
+                        </Link> */}
                     </div>
                 </div>
             </div>
@@ -122,12 +122,12 @@ const Projects: React.FC = () => {
                                 className="bg-orange-500 text-white py-2 px-4 border border-orange-100 rounded-md transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 hover:bg-orange-600 duration-200 mr-4" 
                             />
                         </Link>
-                        <Link target="_blank" href="https://github.com/Sideshow-Charles/rick-and-morty">
+                        {/* <Link target="_blank" href="https://github.com/Sideshow-Charles/rick-and-morty">
                             <Button 
                                 content="View On Github" 
                                 className="bg-orange-500 text-white py-2 px-4 border border-orange-100 rounded-md transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 hover:bg-orange-600 duration-200" 
                             />
-                        </Link>
+                        </Link> */}
                     </div>
                 </div>
             </div>
