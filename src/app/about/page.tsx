@@ -12,6 +12,7 @@ import Sobering from "../../../assets/images/sobering.jpeg";
 import TheDaily from "../../../assets/images/thedaily.jpeg";
 import ZeroConditions from "../../../assets/images/zeroconditions.jpeg";
 import GabandJuls from "../../../assets/images/GabandJuls.jpeg";
+import pnc from "../../../assets/images/pnc.jpeg"
 
 
 const About: React.FC = () => {
@@ -92,8 +93,8 @@ const About: React.FC = () => {
                         <a href="https://open.spotify.com/show/3IM0lmZxpFAY7CwMuv9H4g?si=e3ee27bef0cc4fb6" target="_blank" rel="noopener noreferrer">
                             <Image src={TheDaily} alt="The Daily Podcast" width={300} className="mb-16 rounded-md" />
                         </a>
-                        <a href="https://open.spotify.com/show/2vHU0PPLc07S03lK9mHG0e?si=a0a038a276cf4b7f" target="_blank" rel="noopener noreferrer">
-                            <Image src={ZeroConditions} alt="Zero Conditions Podcast" width={300} className="mb-16 rounded-md" />
+                        <a href="https://open.spotify.com/show/4yen4bo4GLiP8luRt0LeWN?si=edd3831c250b41a9" target="_blank" rel="noopener noreferrer">
+                            <Image src={pnc} alt="Zero Conditions Podcast" width={300} className="mb-16 rounded-md" />
                         </a>
                         <a href="https://open.spotify.com/show/1t6XNlxeQ1vFk4dVw1hJNu?si=66d8b4e4e8684185" target="_blank" rel="noopener noreferrer">
                             <Image src={Sobering} alt="Sobering Podcast" width={300} className="mb-16 rounded-md" />
