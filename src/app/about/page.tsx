@@ -39,7 +39,7 @@ const About: React.FC = () => {
                             building software solutions across different sectors.</p>
 
                         <p className="mt-16 text-xl leading-relaxed max-md:text-lg max-sm:text-base leading-loose">
-                        You can read more about my career overview on the <Link href="/work" className="text-red-500">work page</Link>.</p>
+                            You can read more about my career overview on the <Link href="/work" className="text-red-500">work page</Link>.</p>
 
                         <p className=" mt-8 text-xl text-dark leading-relaxed max-md:text-lg max-sm:text-base leading-loose">My Software Engineering journey is a very surprising one. In 2017,
                             I wanted to be a <span className="italic font-extrabold text-dark-200">Network Engineer</span>. I had a four month <span className="italic font-extrabold text-dark-200">Industrial Training </span>
@@ -66,7 +66,14 @@ const About: React.FC = () => {
                     <p className="text-red-500 font-bold text-5xl max-md:text-4xl max-sm:text-3xl">When I'm Not Writing Code?</p>
                     <div className="w-4/6 max-md:w-full">
                         <p className="mt-8 text-xl leading-relaxed w-3/4 max-md:text-lg w-full max-sm:text-base leading-loose">When I'm not at work or writing code, I listen to a lot of music; nothing specific,
-                            ranging across multiple genres. Pusha T this minute, Estelle the next, nothing limited. <br></br><br></br>
+                            ranging across multiple genres. Pusha T this minute, Estelle the next, nothing limited. You can always check out what I'm listening to <a
+                                href="https://spotify-now-listening-six.vercel.app"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="underline decoration-red-500 decoration-2 underline-offset-4"
+                            >
+                                here
+                            </a> <br></br><br></br>
 
                             I watch a lot of football, I'm a Manchester United fan with keen interest in clubs like
                             Tottenham Hotspur and Inter Milan.<br></br><br></br>
