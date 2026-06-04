@@ -37,8 +37,11 @@ export default function Template({ children }: { children: React.ReactNode }) {
 
   // Dynamic variants that read the instantaneous attribute value
   const getXCoordinate = (type: "initial" | "exit") => {
-    const direction = document.documentElement.getAttribute("data-route-direction") || "forward";
-    
+    const direction =
+      typeof window !== "undefined"
+        ? document.documentElement.getAttribute("data-route-direction") || "forward"
+        : "forward"; // fallback for SSR
+
     if (type === "initial") {
       return direction === "forward" ? 120 : -120;
     }
