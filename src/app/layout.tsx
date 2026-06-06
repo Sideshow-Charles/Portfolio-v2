@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import Header from "@/components/header";
+import RouteDirectionHandler from "@/components/RouteDirectionHandler";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,7 +19,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <RouteDirectionHandler />
+        <Header />
+        {children}
+      </body>
     </html>
   );
 }

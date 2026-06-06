@@ -1,4 +1,4 @@
-"use client"; // Required if you are using Next.js App Router
+"use client";
 
 import { motion } from "framer-motion";
 import { ReactNode } from "react";

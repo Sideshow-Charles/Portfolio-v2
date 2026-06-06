@@ -18,10 +18,6 @@ import pnc from "../../../assets/images/pnc.jpeg"
 const About: React.FC = () => {
     return (
         <div>
-            {/* Header Component */}
-            <Header btnclassName="bg-red-500 text-white py-2 px-4 border border-red-500 rounded-md mx-2 hover:-translate-y-1 hover:scale-105 hover:bg-red-700 duration-200 hover:shadow-2xl" />
-            {/* End of Header Component */}
-
             <div className="max-w-7xl mx-auto">
                 <section className="animate-fadeIn duration-1000 delay-1000 ease-in flex justify-around items-start my-48 max-md:flex-col-reverse max-md:mx-6 max-sm:mx-6">
                     <div className="w-3/6 max-md:w-full">

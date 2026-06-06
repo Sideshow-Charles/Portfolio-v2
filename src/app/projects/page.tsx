@@ -11,15 +11,9 @@ import Image from "next/image";
 const Projects: React.FC = () => {
   return (
     <div>
-      {/* Header Component */}
-      <Header
-        btnclassName="bg-orange-500 text-white py-2 px-4 border border-orange-500 rounded-md mx-2 hover:-translate-y-1 hover:scale-105 hover:bg-orange-700 duration-200"
-      />
-      {/* End of Header Component */}
-
       <div className="max-w-7xl mx-auto animate-fadeIn duration-1000 delay-1000 ease-in">
         {/* Hero Section */}
-        <section className="mt-36 text-center max-md:mx-12 max-sm:mx-6">
+        <section className="mt-64 mb-64 text-center max-md:mx-12 max-sm:mx-6">
           <p className="font-bold text-7xl leading-tight text-orange-500 max-md:text-5xl max-sm:text-4xl">
             Selected Projects.
           </p>
