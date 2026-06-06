@@ -8,10 +8,6 @@ import Link from "next/link"
 const Rick_and_Morty = () => {
     return (
         <div>
-            {/* Header Component */}
-            <Header btnclassName="bg-slate-950 text-white py-2 px-4 border border-slate-950 rounded-md mx-2"></Header>
-            {/* End of Header Component*/}
-
             <div className="mx-24">
 
                 <div className="text-center">

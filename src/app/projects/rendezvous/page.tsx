@@ -10,10 +10,6 @@ import EventMenu2 from "../../../../assets/images/EventMenu2.png"
 const Rendezvous = () => {
     return (
         <div>
-            {/* Header Component */}
-            <Header btnclassName="bg-slate-950 text-white py-2 px-4 border border-slate-950 rounded-md mx-2"></Header>
-            {/* End of Header Component*/}
-
             <div className="mx-24 max-md:mx-12 max-sm:mx-6">
 
                 <div className="text-center">
