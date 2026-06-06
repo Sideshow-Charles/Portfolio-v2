@@ -6,32 +6,32 @@ import Footer from "../components/footer";
 
 const Home: React.FC = () => {
   return (
-      <div>
-        {/* Header Component */}
-        <Header
-          btnclassName="bg-slate-950 text-white py-2 px-4 border border-slate-950 rounded-md mx-2 hover:-translate-y-1 hover:scale-105 hover:bg-slate-950 duration-200"
-        />
-        {/* End of Header Component */}
+    <div>
+      {/* Header Component */}
+      <Header
+        btnclassName="bg-slate-950 text-white py-2 px-4 border border-slate-950 rounded-md mx-2 hover:-translate-y-1 hover:scale-105 hover:bg-slate-950 duration-200"
+      />
+      {/* End of Header Component */}
 
+      <div className="max-w-7xl mx-auto">
         <section className="flex justify-center flex-col items-center mt-36">
           <div className="animate-fadeIn duration-1000 delay-1000 ease-in">
             <p className="text-center font-bold text-7xl leading-tight max-md:text-5xl max-sm:text-4xl">
               Charles Onuoha,<br /> Software Engineer(Frontend).
             </p>
             <p className="text-center mt-8 text-xl max-md:text-lg">Based in Lagos, Nigeria</p>
-          
 
-          {/* CTA Button */}
-          <div className="flex justify-center mt-7">
-            <Link href="/projects" passHref>
-              <Button
-                content="View Projects &#8594;"
-                className="bg-slate-950 text-white py-2 px-4 border border-slate-950 rounded-md mx-2 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 hover:bg-dark duration-200"
-              />
-            </Link>
+            {/* CTA Button */}
+            <div className="flex justify-center mt-7">
+              <Link href="/projects" passHref>
+                <Button
+                  content="View Projects &#8594;"
+                  className="bg-slate-950 text-white py-2 px-4 border border-slate-950 rounded-md mx-2 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 hover:bg-dark duration-200"
+                />
+              </Link>
+            </div>
+            {/* End of CTA Button */}
           </div>
-          </div>
-          {/* End of CTA Button */}
         </section>
 
         <section className="flex justify-center items-center flex-col text-center my-48">
@@ -49,7 +49,7 @@ const Home: React.FC = () => {
         </section>
 
         {/* explore cards section */}
-        <section className="my-48 max-w-7xl mx-auto w-4/5 max-md:w-12/12 space-y-6">
+        <section className="my-48 w-4/5 mx-auto max-md:w-full max-md:px-4 space-y-6">
           <Link href="/about" passHref className="block transform transition-transform duration-300 hover:-translate-x-2">
             <ExploreCards
               className="rounded-2xl text-white bg-red-500 py-16 px-9 text-center max-md:px-3"
@@ -61,10 +61,10 @@ const Home: React.FC = () => {
             />
           </Link>
 
-          <div className="flex justify-between items-center max-md:flex-col gap-6">
-            <Link href="/work" passHref className="flex-1 block transform transition-transform duration-300 hover:-translate-x-2">
+          <div className="flex justify-between items-stretch max-md:flex-col gap-6">
+            <Link href="/work" passHref className="flex-1 block transform transition-transform duration-300 hover:-translate-x-2 h-full">
               <ExploreCards
-                className="rounded-2xl text-white bg-violet-500 py-16 px-4 text-center"
+                className="rounded-2xl text-white bg-violet-500 py-16 px-4 text-center h-full"
                 btnStyle="bg-white text-violet-500 py-4 px-8 rounded-lg mt-10 max-md:px-4 text-base"
                 contentHeader="Work History"
                 contentBody="Take a look at places I've worked, roles and teams I worked in, also daily tasks I performed."
@@ -72,19 +72,19 @@ const Home: React.FC = () => {
               />
             </Link>
 
-            <Link href="/projects" passHref className="flex-1 block transform transition-transform duration-300 hover:-translate-x-2">
+            <Link href="/projects" passHref className="flex-1 block transform transition-transform duration-300 hover:-translate-x-2 h-full">
               <ExploreCards
-                className="rounded-2xl text-white bg-orange-500 py-16 px-9 text-center"
+                className="rounded-2xl text-white bg-orange-500 py-16 px-9 text-center h-full"
                 btnStyle="bg-white text-orange-500 py-4 px-8 rounded-lg mt-10 max-md:px-4 text-base"
                 contentHeader="Projects"
-                contentBody="Take a look at projects I've worked on, from challenges I faced, to how I solved them."
+                contentBody="Projects I've worked on, from challenges I faced, to how I solved them."
                 btnContent="Projects &#8594;"
               />
             </Link>
           </div>
 
-          <a
-            href="mailto:charlesonuoha97@gmail.com"
+          
+            <a href="mailto:charlesonuoha97@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
             className="block transform transition-transform duration-300 hover:-translate-x-2"
@@ -99,13 +99,14 @@ const Home: React.FC = () => {
           </a>
         </section>
         {/* End of explore cards section */}
-
-        {/* footer section */}
-        <section className="mt-36">
-          <Footer />
-        </section>
-        {/* end of footer section */}
       </div>
+
+      {/* footer section */}
+      <section className="mt-36">
+        <Footer />
+      </section>
+      {/* end of footer section */}
+    </div>
   );
 };
 
