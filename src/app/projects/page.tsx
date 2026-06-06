@@ -33,7 +33,7 @@ const Projects: React.FC = () => {
             {/* Project Section */}
             <div className="flex justify-around items-center my-36 mx-16 max-md:flex-col mx-6">
                 <div className="w-8/12 max-md:w-full">
-                    <Link target="_blank" href="https://spotify-now-listening-six.vercel.app">
+                    <Link target="_blank" href="https://music.charlesonuoha.xyz">
                         <Image 
                             src={SpotifyNowPlaying} 
                             alt="Spotify Now Playing Project Image" 
@@ -49,7 +49,7 @@ const Projects: React.FC = () => {
                         Leveraged on the Spotify API, to show what I'm currently listening to on the Spotify app
                     </p>
                     <div className="flex">
-                        <Link target="_blank" href="https://spotify-now-listening-six.vercel.app">
+                        <Link target="_blank" href="https://music.charlesonuoha.xyz">
                             <Button 
                                 content="View Live" 
                                 className="bg-orange-500 text-white py-2 px-4 border border-orange-100 rounded-md transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 hover:bg-orange-600 duration-200 mr-4" 

@@ -67,7 +67,7 @@ const About: React.FC = () => {
                     <div className="w-4/6 max-md:w-full">
                         <p className="mt-8 text-xl leading-relaxed w-3/4 max-md:text-lg w-full max-sm:text-base leading-loose">When I'm not at work or writing code, I listen to a lot of music; nothing specific,
                             ranging across multiple genres. Pusha T this minute, Estelle the next, nothing limited. You can always check out what I'm listening to <a
-                                href="https://spotify-now-listening-six.vercel.app"
+                                href="https://music.charlesonuoha.xyz"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="underline decoration-red-500 decoration-2 underline-offset-4"
