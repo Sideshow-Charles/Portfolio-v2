@@ -38,7 +38,7 @@ const Projects: React.FC = () => {
             <p className="font-bold text-orange-500 text-3xl mb-2">
               Spotify Now Playing
             </p>
-            <p className="text-xl leading-relaxed my-4">
+            <p className="text-xl leading-relaxed my-4 max-md:text-lg max-md:w-full max-sm:text-base">
               Leveraged on the Spotify API, to show what I'm currently listening to on the Spotify app
             </p>
             <div className="flex">
@@ -66,7 +66,7 @@ const Projects: React.FC = () => {
             <p className="font-bold text-orange-500 text-3xl mb-2">
               Kolawole's Portfolio
             </p>
-            <p className="text-xl leading-relaxed my-4">
+            <p className="text-xl leading-relaxed my-4 max-md:text-lg max-md:w-full max-sm:text-base">
               Online portfolio for Kolawole Popoola, a digital product designer.
             </p>
             <div className="flex">
@@ -94,7 +94,7 @@ const Projects: React.FC = () => {
             <p className="font-bold text-orange-500 text-3xl mb-2">
               Rendezvous
             </p>
-            <p className="text-xl leading-relaxed my-4">
+            <p className="text-xl leading-relaxed my-4 max-md:text-lg max-md:w-full max-sm:text-base">
               Rendezvous is a merchant view of an event management system.
             </p>
             <div className="flex">
