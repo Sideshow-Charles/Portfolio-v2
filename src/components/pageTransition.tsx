@@ -4,9 +4,9 @@ import { motion } from "framer-motion";
 import { ReactNode } from "react";
 
 const variants = {
-  hidden: { opacity: 0, x: 100 }, // Starts off-screen to the right
-  enter: { opacity: 1, x: 0 },    // Slides into view
-  exit: { opacity: 0, x: -100 },  // Slides out to the left when leaving
+  hidden: { opacity: 0, x: 100 },
+  enter: { opacity: 1, x: 0 },
+  exit: { opacity: 0, x: -100 },
 };
 
 interface Props {

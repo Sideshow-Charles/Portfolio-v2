@@ -8,15 +8,12 @@ const Works: React.FC = () => {
   return (
     <div>
       <div className="max-w-7xl mx-auto pt-24">
-        {/* Hero Section */}
         <section className="animate-fadeIn duration-1000 delay-1000 ease-in text-center my-52 max-md:mx-12 max-sm:mx-6">
           <p className="font-bold text-7xl leading-tight text-violet-500 max-md:text-5xl leading-loose max-sm:text-4xl">
             Work History & <br /> Career Overview.
           </p>
         </section>
-        {/* End of Hero Section */}
 
-        {/* Work History Section */}
         <WorkHistory
           companyLink="https://flutterwave.com"
           companyName="Flutterwave"
@@ -106,7 +103,6 @@ const Works: React.FC = () => {
           sections={[]}
           technologies="VMware, CentOS"
         />
-        {/* End of Work History Section */}
 
         <div className="flex justify-between items-center max-sm:overflow-x-hidden">
           <div className="text-left">
@@ -130,10 +126,7 @@ const Works: React.FC = () => {
           </div>
         </div>
       </div>
-
-      {/* Footer Component */}
       <Footer />
-      {/* End of Footer Component */}
     </div>
   );
 };

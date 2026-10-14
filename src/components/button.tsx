@@ -2,7 +2,7 @@ import React from 'react';
 
 interface ButtonProps {
     content: string;
-    className?: string; // Optional prop for className
+    className?: string;
 }
 
 const Button: React.FC<ButtonProps> = (props) => {
