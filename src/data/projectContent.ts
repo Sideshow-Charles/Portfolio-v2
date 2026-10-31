@@ -4,6 +4,16 @@ import kolawole from "../../assets/images/kolawole.png";
 import SpotifyNowPlaying from "../../assets/images/SpotifyNowPlaying.png";
 import checkout from "../../assets/images/checkout.png";
 import yomo from "../../assets/images/yomo.png";
+import yomoStoreDesktop from "../../assets/images/store-desktop-view.png";
+import yomoStoreMobile from "../../assets/images/store-mobile-view.png";
+import yomoProductDesktop from "../../assets/images/product-desktop-view.png";
+import yomoProductMobile from "../../assets/images/product-mobile-view.png";
+import yomoEventsDesktop from "../../assets/images/events-desktop-view.png";
+import yomoEventsMobile from "../../assets/images/events-mobile-view.png";
+import yomoBlogDesktop from "../../assets/images/blog-desktop-view.png";
+import yomoHomeMobile from "../../assets/images/home-mobile-view.png";
+import yomoBlogMobile from "../../assets/images/blog-mobile-view.png";
+
 
 export type CaseBlock = {
   subheading?: string;
@@ -11,6 +21,8 @@ export type CaseBlock = {
   bullets?: string[];
   image?: StaticImageData;
   imageAlt?: string;
+  mobileImage?: StaticImageData;
+  mobileImageAlt?: string;
 };
 
 export type CaseSection = {
@@ -31,138 +43,189 @@ export type CaseStudy = {
 };
 
 export const caseStudies: CaseStudy[] = [
-  // {
-  //   slug: "yomo-studios",
-  //   title: "Yomo Studios",
-  //   sector: "E-commerce / Events",
-  //   year: "2026",
-  //   role: "Full-stack Engineer",
-  //   href: "https://latelieryomo.com",
-  //   hero: yomo,
-  //   heroAlt: "Yomo Studios — L'Atelier Yomo",
-  //   sections: [
-  //     {
-  //       heading: "Overview",
-  //       blocks: [
-  //         {
-  //           paragraphs: [
-  //             "Yomo Studios is a full-stack web application for a Lagos-based resin art business — part storefront, part event platform, part admin tool. It sells physical products, runs ticketed workshops and events, and gives the studio a place to manage all of it without touching code.",
-  //             "I built it end to end: the public-facing site, the backend APIs, the payment and email flows, and the admin panel behind them. It's live at latelieryomo.com.",
-  //           ],
-  //         },
-  //       ],
-  //     },
-  //     {
-  //       heading: "The Goal",
-  //       blocks: [
-  //         {
-  //           paragraphs: [
-  //             "The studio needed more than a brochure site. It had to take ticket payments for workshops, sell products online, send customers their confirmations automatically, and let the owner update everything herself — all while looking like a considered, branded experience rather than a generic template.",
-  //             "That meant building a real full-stack system: a frontend with a distinct visual identity, a database and API layer behind it, authenticated admin tooling, and payment and email integrations that had to work reliably because real money and real orders depend on them.",
-  //           ],
-  //         },
-  //       ],
-  //     },
-  //     {
-  //       heading: "What I Built",
-  //       blocks: [
-  //         {
-  //           paragraphs: [
-  //             "I built the application on Next.js 15 with the App Router, TypeScript, and SCSS/BEM, backed by Supabase for the database, authentication, and storage. The work spans several connected systems:",
-  //           ],
-  //           bullets: [
-  //             "Storefront & events — a branded landing page, individual event detail pages, and a product store.",
-  //             "Ticketing — Multiple payment processors purchasing flow with a signed webhook, idempotency handling, and automatic confirmation emails.",
-  //             "Store orders — an order backend with orders and order-items tables, order initialization, a payment webhook, stock decrement, and a confirmation page.",
-  //             "Admin panel — Supabase Auth for the studio owner, with full create/read/update/delete for products and events.",
-  //             "Design system — a custom palette and type system that gives the site its own identity.",
-  //           ],
-  //         },
-  //       ],
-  //     },
-  //     {
-  //       heading: "Backend & Data",
-  //       blocks: [
-  //         {
-  //           paragraphs: [
-  //             "The site started on static data files and I migrated it to a Supabase-backed REST API using Next.js App Router route handlers. That shift turned a static site into a real application: content lives in a database, the frontend reads it through API routes, and the studio can change it without a deploy.",
-  //             "On top of that sits full CRUD for products and events, so the owner manages the catalogue and event listings directly through the admin panel rather than asking me to edit code.",
-  //           ],
-  //         },
-  //       ],
-  //     },
-  //     {
-  //       heading: "Payments & Email",
-  //       blocks: [
-  //         {
-  //           paragraphs: [
-  //             "Ticket and order payments run through Paystack. The payment webhook verifies each request with HMAC signature checking and handles idempotency, so a retried or duplicated webhook can't double-charge, double-count stock, or send a second confirmation.",
-  //             "Successful payments trigger transactional email through Resend, sent from @latelieryomo.com addresses, so customers get an immediate, branded confirmation. For store orders, a successful payment also decrements stock and lands the customer on a confirmation page.",
-  //           ],
-  //         },
-  //       ],
-  //     },
-  //     {
-  //       heading: "Authentication & Admin",
-  //       blocks: [
-  //         {
-  //           paragraphs: [
-  //             "The admin panel is gated behind Supabase Auth, wired up with @supabase/ssr so authentication works correctly across server and client in the App Router.",
-  //             "Behind that gate, the studio owner has full control over products and events — adding new workshops, updating product details, and managing what's live on the site — without needing a developer in the loop.",
-  //           ],
-  //         },
-  //       ],
-  //     },
-  //     {
-  //       heading: "Design System",
-  //       blocks: [
-  //         {
-  //           paragraphs: [
-  //             "The site has its own visual identity rather than a stock theme. The landing-page rebuild established a dark, terracotta-led palette and a type system pairing Syne with ABeeZee.",
-  //             "Colours and other design tokens live as SCSS variables, so the look is consistent across the site and easy to adjust in one place rather than hunting through component styles.",
-  //           ],
-  //         },
-  //       ],
-  //     },
-  //     {
-  //       heading: "Deployment & Reliability",
-  //       blocks: [
-  //         {
-  //           paragraphs: [
-  //             "The app is deployed on Vercel with both production and staging environments, so changes can be verified before they reach customers. Transactional email runs through a verified domain, and the payment webhooks are built to survive retries without side effects.",
-  //             "One memorable fix: a Vercel build that passed locally but failed in CI because of macOS's case-insensitive filesystem masking a casing mismatch in a committed filename. I tracked it down by inspecting the actual committed casing and correcting the index — the kind of environment-specific bug that only shows up once it leaves your machine.",
-  //           ],
-  //         },
-  //       ],
-  //     },
-  //     {
-  //       heading: "Tech Stack",
-  //       blocks: [
-  //         {
-  //           bullets: [
-  //             "Next.js 15 (App Router) — frontend and API route handlers",
-  //             "TypeScript — application logic",
-  //             "SCSS / BEM — styling and design tokens",
-  //             "Supabase — database, authentication, and storage",
-  //             "Paystack & Flutterwave — ticket and order payments, with signed webhooks",
-  //             "Resend — transactional email from the studio's domain",
-  //             "Vercel — production and staging deployment",
-  //           ],
-  //         },
-  //       ],
-  //     },
-  //     {
-  //       heading: "Outcome",
-  //       blocks: [
-  //         {
-  //           paragraphs: [
-  //             "Yomo Studios is a live, full-stack product: customers buy tickets and products, payments are verified and confirmed automatically, and the studio runs the whole thing from an admin panel. It's the project where I've worked across the entire stack — frontend, database, auth, payments, email, and deployment — on something real people actually transact through.",
-  //           ],
-  //         },
-  //       ],
-  //     },
-  //   ],
-  // },
+  {
+    slug: "yomo-studios",
+    title: "Yomo Studios",
+    sector: "Full-Stack E-commerce & Community",
+    year: "2026",
+    role: "Full-stack Engineer",
+    href: "https://latelieryomo.com",
+    hero: yomo,
+    heroAlt: "Yomo Studios — L'Atelier Yomo",
+    sections: [
+      {
+        heading: "Overview",
+        blocks: [
+          {
+            paragraphs: [
+              "Yomo Studios is a Lagos-based creative art studio offering handcrafted products, creative workshops, events, and a growing community around art and making.",
+              "I designed and developed a full-stack platform that brings the studio's different offerings into one digital experience. Customers can explore and purchase products, discover upcoming events and workshops, engage with studio content, and stay connected through its newsletter and community.",
+              "Beyond the public-facing website, I built a comprehensive admin dashboard that gives the studio control over its digital operations, from managing products and orders to publishing content and managing subscribers.",
+              "The goal was to build more than a business website: a digital platform that supports the studio's creative identity while giving its team the tools to operate and grow online.",
+            ],
+            image: yomo,
+            imageAlt: "Yomo Studios homepage on desktop",
+            mobileImage: yomoHomeMobile,
+            mobileImageAlt: "Yomo Studios homepage on mobile",
+          },
+        ],
+      },
+      {
+        heading: "The Challenge",
+        blocks: [
+          {
+            paragraphs: [
+              "Yomo Studios operates across several parts of the creative space. It sells handmade resin and cement products, offers merchandise, hosts workshops and events, publishes articles, and builds a community around shared creative experiences.",
+              "Bringing all of this together meant balancing different customer journeys without making the experience feel fragmented.",
+              "But the challenge extended beyond the customer-facing experience. The studio also needed a central place to manage the different parts of its business without relying on a developer for routine updates.",
+              "This meant building two connected experiences: an engaging public website for customers and a functional administrative dashboard for the studio.",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "What I Built",
+        blocks: [
+          {
+            paragraphs: [
+              "I developed a full-stack web application comprising two major parts.",
+            ],
+          },
+          {
+            subheading: "Customer-facing website",
+            paragraphs: [
+              "The public website serves as the studio's digital storefront and community hub, covering the full range of what the studio offers:",
+            ],
+            bullets: [
+              "E-commerce storefront — product discovery and shopping experiences for resin pieces, cement products, and merchandise.",
+              "Events and workshops — dedicated experiences for discovering the studio's events and creative workshops.",
+              "Content and blog — an editorial section for publishing articles and sharing stories around the studio and its work.",
+              "Community experience — a dedicated space that communicates the studio's community-led identity and creative activities.",
+              "Brand and studio pages — pages introducing the studio, its story, creative practice, and services.",
+              "Newsletter subscriptions — an integration that allows visitors to subscribe to studio updates and announcements.",
+            ],
+          },
+          {
+            paragraphs: [
+              "The storefront lets customers browse the studio's products across categories, with a responsive layout that adapts from desktop to mobile.",
+            ],
+            image: yomoStoreDesktop,
+            imageAlt: "Yomo Studios store page on desktop",
+            mobileImage: yomoStoreMobile,
+            mobileImageAlt: "Yomo Studios store page on mobile",
+          },
+          {
+            paragraphs: [
+              "Each product has a dedicated detail page for viewing and purchasing an individual piece.",
+            ],
+            image: yomoProductDesktop,
+            imageAlt: "Yomo Studios product detail page on desktop",
+            mobileImage: yomoProductMobile,
+            mobileImageAlt: "Yomo Studios product detail page on mobile",
+          },
+          {
+            paragraphs: [
+              "The events and workshops section surfaces the studio's upcoming sessions, giving each one room to communicate what it is and how to take part.",
+            ],
+            image: yomoEventsDesktop,
+            imageAlt: "Yomo Studios events page on desktop",
+            mobileImage: yomoEventsMobile,
+            mobileImageAlt: "Yomo Studios events page on mobile",
+          },
+          {
+            paragraphs: [
+              "An editorial blog section lets the studio publish articles and share stories around its work and community.",
+            ],
+            image: yomoBlogDesktop,
+            imageAlt: "Yomo Studios blog section on desktop",
+            mobileImage: yomoBlogMobile,
+            mobileImageAlt: "Yomo Studios blog page on mobile",
+          },
+          {
+            subheading: "Administrative dashboard",
+            paragraphs: [
+              "I also built a comprehensive admin dashboard that serves as the operational centre of the platform. The studio can manage its digital operations from one place, including:",
+            ],
+            bullets: [
+              "Products — create, update, and manage product listings.",
+              "Orders — view and manage customer orders.",
+              "Events and workshops — create and manage events and workshop listings.",
+              "Blog — publish and manage articles and editorial content.",
+              "Subscribers — manage newsletter subscribers.",
+              "Website content — maintain the content that powers the public-facing experience.",
+            ],
+          },
+          {
+            paragraphs: [
+              "This gives the studio direct control over its website and day-to-day content operations without needing developer involvement for routine management.",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "Full-Stack Development & Integrations",
+        blocks: [
+          {
+            paragraphs: [
+              "I handled the frontend and backend implementation, connecting the application to the services needed to support its functionality.",
+              "The application was built with Next.js and TypeScript, with SCSS for styling and Supabase providing the backend infrastructure. I integrated several third-party services to support the platform:",
+            ],
+            bullets: [
+              "Supabase — backend infrastructure and data management.",
+              "Flutterwave — payment processing for online transactions.",
+              "Resend — email delivery for application communications.",
+              "Mailchimp — newsletter subscriber management and audience communication.",
+            ],
+          },
+          {
+            paragraphs: [
+              "Together, these services support the platform's commerce, communication, and audience-management workflows.",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "Building for a Real Business",
+        blocks: [
+          {
+            paragraphs: [
+              "A key consideration throughout development was that this wasn't simply a portfolio piece or a static brand website. It was built for a business with products to sell, orders to manage, events to promote, content to publish, and an audience to maintain relationships with.",
+              "The public website and admin dashboard had to work as parts of one product. Changes made through the dashboard needed to support the content and experiences presented to customers, while the integrations supported the business processes happening behind the scenes.",
+              "Building both sides gave me the opportunity to work across the full development lifecycle, from customer-facing interfaces and administrative tools to backend functionality and third-party integrations.",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "Outcome",
+        blocks: [
+          {
+            paragraphs: [
+              "The result is a full-stack platform that gives Yomo Studios a central online presence for its products, events, content, and community, alongside a comprehensive dashboard for managing its operations.",
+              "Rather than having separate tools and workflows for every part of its online presence, the studio can manage its products, orders, events, blog, subscribers, and website content from one place.",
+              "The project demonstrates my ability to take a multi-faceted business requirement and turn it into a complete product, covering frontend development, backend implementation, administrative tooling, and third-party service integrations.",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "Tech Stack",
+        blocks: [
+          {
+            bullets: [
+              "Next.js",
+              "TypeScript",
+              "SCSS",
+              "Supabase",
+              "Flutterwave",
+              "Resend",
+              "Mailchimp",
+            ],
+          },
+        ],
+      },
+    ],
+  },
   {
     slug: "flutterwave-checkout-v3",
     title: "Flutterwave Checkout v3",

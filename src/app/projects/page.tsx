@@ -18,14 +18,14 @@ type Project = {
 };
 
 const projects: Project[] = [
-  // {
-  //   slug: "yomo-studios",
-  //   title: "Yomo Studios",
-  //   year: "2026",
-  //   sector: "E-commerce / Events",
-  //   image: yomo,
-  //   imageAlt: "Yomo Studios Project Image",
-  // },
+  {
+    slug: "yomo-studios",
+    title: "Yomo Studios",
+    year: "2026",
+    sector: "E-commerce / Events",
+    image: yomo,
+    imageAlt: "Yomo Studios Project Image",
+  },
   {
     slug: "flutterwave-checkout-v3",
     title: "Flutterwave Checkout v3",

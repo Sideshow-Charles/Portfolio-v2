@@ -105,13 +105,42 @@ const CaseStudyPage = ({ params }: { params: { slug: string } }) => {
                       </ul>
                     )}
 
-                    {block.image && (
+                    {block.image && !block.mobileImage && (
                       <div className="mt-6">
                         <Image
                           src={block.image}
                           alt={block.imageAlt ?? ""}
-                          className="rounded-lg w-full h-auto"
+                          className="rounded-lg w-full h-auto border border-zinc-100"
                         />
+                      </div>
+                    )}
+
+                    {!block.image && block.mobileImage && (
+                      <div className="mt-6 w-full max-w-[18rem] mx-auto">
+                        <Image
+                          src={block.mobileImage}
+                          alt={block.mobileImageAlt ?? ""}
+                          className="rounded-lg w-full h-auto border border-zinc-100"
+                        />
+                      </div>
+                    )}
+
+                    {block.image && block.mobileImage && (
+                      <div className="mt-6 flex items-end gap-4 max-sm:flex-col max-sm:items-stretch">
+                        <div className="flex-1">
+                          <Image
+                            src={block.image}
+                            alt={block.imageAlt ?? ""}
+                            className="rounded-lg w-full h-auto border border-zinc-100"
+                          />
+                        </div>
+                        <div className="w-40 shrink-0 max-sm:w-full max-sm:max-w-[16rem] max-sm:mx-auto">
+                          <Image
+                            src={block.mobileImage}
+                            alt={block.mobileImageAlt ?? block.imageAlt ?? ""}
+                            className="rounded-lg w-full h-auto border border-zinc-100"
+                          />
+                        </div>
                       </div>
                     )}
                   </div>
