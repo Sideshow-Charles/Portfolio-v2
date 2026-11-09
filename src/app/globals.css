@@ -22,6 +22,28 @@
   box-sizing: border-box;
 }
 
+.explore-grid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "know know"
+    "work projects"
+    "talk talk";
+}
+
+@media (max-width: 768px) {
+  .explore-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    grid-template-areas:
+      "know"
+      "work"
+      "projects"
+      "talk";
+  }
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
