@@ -53,7 +53,7 @@ const Header: React.FC = () => {
                     <a href="mailto:charlesonuoha97@gmail.com" target="_blank" rel="noopener noreferrer">
                         <Button content="Let's Talk!" className="bg-gray-100 text-black py-2 px-4 border border-gray-100 rounded-md mx-2 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 hover:bg-gray-100 duration-200 max-md:hidden"/>
                     </a>
-                    <a href="https://drive.google.com/file/d/11cHOua8qg1LS_-le7CjaLrU3auLiflrW/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                    <a href="https://drive.google.com/file/d/1rjpnP-wT1Z55PFXJBHc92A1Ulht6vjzj/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                         <Button content="Resume" className={getBtnClassName()} />
                     </a>
                 </div>
