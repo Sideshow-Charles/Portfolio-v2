@@ -102,7 +102,7 @@ const Projects: React.FC = () => {
                   </div>
                   <span className="mt-6 inline-flex items-center gap-2 text-sm font-medium text-white border-b border-white/60 pb-0.5">
                     View case study
-                    <span aria-hidden="true">&#8599;</span>
+                    {/* <span aria-hidden="true">&#8599;</span> */}
                   </span>
                 </div>
               </Link>

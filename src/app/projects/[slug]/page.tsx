@@ -46,7 +46,6 @@ const CaseStudyPage = ({ params }: { params: { slug: string } }) => {
             className="mt-6 inline-flex items-center gap-2 text-sm font-medium border-b-2 border-current pb-0.5 transition-colors duration-200 hover:text-orange-500"
           >
             View live
-            &#8599;
           </Link>
         )}
       </header>
